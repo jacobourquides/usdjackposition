@@ -9,307 +9,78 @@
   :root{
     --bg:#0f1420; --panel:#171d2b; --panel2:#1e2536; --border:#2a3346;
     --text:#e6ebf5; --muted:#98a4bd; --accent:#5b8cff;
-    --t1:#3ddc84; --t1bg:#12331f;
-    --t2:#ffd24d; --t2bg:#332b0f;
-    --t3:#ff9d4d; --t3bg:#33220f;
-    --red:#ff6b6b; --redbg:#331414;
-    --peso:#c58cff; --pesobg:#25163a;
-    --free:#4dd0e1; --freebg:#0f2e33;
   }
   *{box-sizing:border-box}
-  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.5;font-size:15px}
-  a{color:var(--accent);text-decoration:none}
-  a:hover{text-decoration:underline}
-  header{padding:28px 20px 18px;max-width:1100px;margin:0 auto}
-  h1{margin:0 0 4px;font-size:26px}
-  .sub{color:var(--muted);font-size:14px;margin:0 0 16px}
-  .updated{display:inline-block;background:var(--panel2);border:1px solid var(--border);border-radius:20px;padding:4px 12px;font-size:12px;color:var(--muted)}
-  .stats{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 0}
-  .stat{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:10px 14px;min-width:110px;flex:1}
-  .stat .n{font-size:22px;font-weight:700}
-  .stat .l{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.4px}
-  main{max-width:1100px;margin:0 auto;padding:0 20px 60px}
-  .callout{background:var(--panel2);border-left:4px solid var(--accent);border-radius:8px;padding:14px 16px;margin:20px 0;font-size:14px;color:#cdd6ea}
-  .callout b{color:var(--text)}
-  section{margin:34px 0 0}
-  h2{font-size:19px;margin:0 0 4px;display:flex;align-items:center;gap:8px}
-  .h2note{color:var(--muted);font-size:13px;font-weight:400;margin:0 0 12px}
-  .toolbar{display:flex;gap:10px;flex-wrap:wrap;margin:16px 0 20px}
-  .toolbar input{background:var(--panel);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:9px 12px;font-size:14px;flex:1;min-width:200px}
-  .card{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:2px 0;margin:0 0 14px;overflow:hidden}
-  .card-head{display:flex;align-items:center;gap:10px;padding:12px 16px;font-weight:600;font-size:15px}
-  .tierbadge{font-size:11px;font-weight:700;padding:3px 9px;border-radius:6px;letter-spacing:.3px}
-  .t1 .tierbadge{background:var(--t1bg);color:var(--t1)}
-  .t2 .tierbadge{background:var(--t2bg);color:var(--t2)}
-  .t3 .tierbadge{background:var(--t3bg);color:var(--t3)}
-  .job{border-top:1px solid var(--border);padding:14px 16px;display:grid;grid-template-columns:1fr auto;gap:6px 14px}
-  .job:first-of-type{border-top:1px solid var(--border)}
-  .job .company{font-weight:650;font-size:15px}
-  .job .role{color:var(--muted);font-size:13px}
-  .job .usd{font-size:12px;padding:3px 8px;border-radius:6px;background:var(--t1bg);color:var(--t1);white-space:nowrap;align-self:start}
-  .job .usd.prob{background:var(--t2bg);color:var(--t2)}
-  .job .usd.no{background:var(--redbg);color:var(--red)}
-  .job .note{grid-column:1/-1;font-size:13px;color:#c3cde0;margin-top:2px}
-  .job .apply{grid-column:1/-1;margin-top:4px}
-  .pill{display:inline-block;font-size:11px;padding:2px 8px;border-radius:20px;background:var(--panel2);border:1px solid var(--border);color:var(--muted);margin:2px 4px 0 0}
-  table{width:100%;border-collapse:collapse;font-size:13.5px}
-  th,td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:top}
-  th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.3px}
-  tr:last-child td{border-bottom:none}
-  details{background:var(--panel);border:1px solid var(--border);border-radius:12px;margin:14px 0;overflow:hidden}
-  summary{padding:14px 16px;cursor:pointer;font-weight:600;font-size:15px;list-style:none}
-  summary::-webkit-details-marker{display:none}
-  summary::before{content:"▸ ";color:var(--muted)}
-  details[open] summary::before{content:"▾ "}
-  .filters{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin:16px 0}
-  .filterbox{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:12px 14px;font-size:13px}
-  .filterbox h4{margin:0 0 6px;font-size:13px;color:var(--accent)}
-  .free-emoji{font-size:13px}
-  footer{max-width:1100px;margin:0 auto;padding:20px;color:var(--muted);font-size:12px;border-top:1px solid var(--border)}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
+  .wrap{max-width:1000px;margin:0 auto;padding:24px 20px 70px}
+  .topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:18px}
+  .brand{font-size:13px;color:var(--muted)}
+  .refresh{background:var(--panel);border:1px solid var(--border);color:var(--accent);border-radius:8px;padding:7px 12px;font-size:13px;cursor:pointer}
+  .refresh:hover{background:var(--panel2)}
+  #search{width:100%;background:var(--panel);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:10px 12px;font-size:14px;margin:0 0 20px}
+  #content h1{font-size:26px;margin:6px 0 4px}
+  #content h2{font-size:20px;margin:34px 0 6px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+  #content h3{font-size:16px;margin:22px 0 4px;color:var(--accent)}
+  #content h4{font-size:14px;margin:16px 0 4px}
+  #content p{margin:10px 0}
+  #content a{color:var(--accent);text-decoration:none}
+  #content a:hover{text-decoration:underline}
+  #content hr{border:none;border-top:1px solid var(--border);margin:26px 0}
+  #content blockquote{margin:14px 0;padding:10px 14px;background:var(--panel2);border-left:4px solid var(--accent);border-radius:8px;color:#cdd6ea}
+  #content ul{padding-left:20px}
+  #content li{margin:5px 0}
+  #content code{background:var(--panel2);padding:2px 6px;border-radius:5px;font-size:13px}
+  .tablewrap{overflow-x:auto;margin:12px 0;border:1px solid var(--border);border-radius:10px}
+  #content table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:560px}
+  #content th,#content td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:top}
+  #content th{background:var(--panel2);color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.3px}
+  #content tr:last-child td{border-bottom:none}
+  #content tbody tr:hover{background:var(--panel)}
+  .loading{color:var(--muted);padding:40px 0;text-align:center}
+  .err{color:#ff8080;padding:20px;background:var(--panel);border:1px solid var(--border);border-radius:10px}
   .hidden{display:none!important}
-  @media(max-width:600px){h1{font-size:22px}.job{grid-template-columns:1fr}}
+  footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);margin-top:40px;padding-top:16px}
 </style>
 </head>
 <body>
-<header>
-  <h1>📋 Dashboard — Vacantes Remotas USD</h1>
-  <p class="sub">Objetivo: trabajo remoto pagado en USD desde México (sin visa). Dos frentes: (1) Scrum Master / Agile · (2) freelance por hora.</p>
-  <span class="updated" id="updated">Última actualización: 04-ago-2026</span>
-  <div class="stats">
-    <div class="stat"><div class="n">11</div><div class="l">Vivas por aplicar</div></div>
-    <div class="stat"><div class="n">4</div><div class="l">Aplicadas / en proceso</div></div>
-    <div class="stat"><div class="n">5</div><div class="l">En pausa (pesos)</div></div>
-    <div class="stat"><div class="n">26</div><div class="l">Descartadas</div></div>
-    <div class="stat"><div class="n">17</div><div class="l">Plataformas freelance</div></div>
+<div class="wrap">
+  <div class="topbar">
+    <span class="brand">📋 Dashboard de vacantes · se actualiza cada mañana</span>
+    <button class="refresh" onclick="load(true)">↻ Recargar</button>
   </div>
-</header>
+  <input type="text" id="search" placeholder="🔎 Filtrar filas por empresa, rol o palabra…">
+  <div id="content"><div class="loading">Cargando…</div></div>
+  <footer>Contenido ofuscado (sin datos personales). Fuente: registro del proyecto. Renderizado desde <code>dashboard.md</code>.</footer>
+</div>
 
-<main>
-  <div class="callout">
-    <b>💡 Estrategia clave:</b> las vacantes full-time tipo "Mexico – Remote" casi siempre son entidad local = moneda local (pesos, prestaciones de ley). El carril de <b>USD real es contractor / marketplace</b> (Braintrust, Devsu, Blue Coding, BairesDev, Revelo, Index.dev). Concentrar el fuego ahí. Pista: "B2B Contractor" en el JD = carril USD, pero verifica que siga abierto y que la ubicación no sea solo "South America"/Argentina.
-  </div>
-
-  <div class="toolbar">
-    <input type="text" id="search" placeholder="🔎 Filtrar por empresa, rol o palabra clave…">
-  </div>
-
-  <section id="sm">
-    <h2>🎯 SM / Agile — Vivas por aplicar</h2>
-    <p class="h2note">Ordenadas por encaje. Aplica de arriba hacia abajo.</p>
-
-    <div class="card t1">
-      <div class="card-head"><span class="tierbadge">TIER 1</span> Aplica primero — USD confirmado</div>
-      <div class="job">
-        <div><span class="company">American Innovations</span> <span class="role">· Agile Delivery Leader / Scrum Master (contrato) · vía Braintrust</span></div>
-        <span class="usd">$30/hr · 40h · 10 meses</span>
-        <div class="note">✅ <b>Solicitud completada (29-jul)</b> — entrevista con IA hecha, aplicación enviada, esperando respuesta. ~$4,800 USD/mes, keep 100%. Remoto MX/Sudamérica. Azure DevOps/Jira, métricas. Cert Scrum "helpful, not required". Si contactan → preparar historias STAR.</div>
-      </div>
-    </div>
-
-    <div class="card t2">
-      <div class="card-head"><span class="tierbadge">TIER 2</span> Buen tiro con 1 hueco suave — contractor / USD probable</div>
-      <div class="job">
-        <div><span class="company">Tech Holding</span> 🆕 <span class="role">· Scrum Master / TPM (Contract) — LATAM</span></div>
-        <span class="usd prob">USD probable</span>
-        <div class="note">🆕 04-ago. ¡REABRIÓ! Abierto en Greenhouse. Contract, LATAM remoto, horario PST (ventaja Pacífico). Ceremonias ágiles, Jira, métricas, equipos distribuidos. Pide 4–7+ años + Scrum cert preferida (confirmar que aceptan SAFe). Moneda no declarada → confirmar USD.</div>
-        <div class="apply"><a href="https://job-boards.greenhouse.io/techholding/jobs/4560244005" target="_blank" rel="noopener">Ver vacante ↗</a></div>
-      </div>
-      <div class="job">
-        <div><span class="company">Blend360</span> ⭐ <span class="role">· Senior Project Manager (AI-Data)</span></div>
-        <span class="usd prob">USD probable</span>
-        <div class="note">"Benefits vary by LATAM location" + empresa gringa (AWS Partner) → leans USD/regional. Encaje fuerte: AI/Data, piden Copilot/Cursor, 7+ años, SAFe ok, inglés avanzado. Es PM (no SM) pero ágil. Aplica y confirma moneda.</div>
-        <div class="apply"><a href="https://jobs.smartrecruiters.com/blend360/744000138952339-senior-project-manager" target="_blank" rel="noopener">Ver vacante ↗</a></div>
-      </div>
-      <div class="job">
-        <div><span class="company">Blue Coding</span> <span class="role">· Senior Technical PM</span></div>
-        <span class="usd">USD (contractor)</span>
-        <div class="note">Remoto LATAM, modelo USD contractor. Hueco: qué tan "técnico" pide el rol.</div>
-        <div class="apply"><a href="https://jobs.lever.co/bluecoding" target="_blank" rel="noopener">Ver board ↗</a></div>
-      </div>
-      <div class="job">
-        <div><span class="company">Devsu</span> <span class="role">· Senior Technical PM</span></div>
-        <span class="usd">USD (contractor)</span>
-        <div class="note">México listado, contractor USD. Confirmar residencia/dominio/nivel técnico al aplicar.</div>
-        <div class="apply"><a href="https://apply.workable.com/devsu/j/9BA97F5A36/" target="_blank" rel="noopener">Ver vacante ↗</a></div>
-      </div>
-      <div class="job">
-        <div><span class="company">Amaya Cloud</span> <span class="role">· Fractional Scrum Master</span></div>
-        <span class="usd">USD</span>
-        <div class="note">Worldwide, horario Pacífico (ventaja), USD. Huecos: part-time (6–10 h/sem) y pide PSM/CSM. Ingreso complementario.</div>
-        <div class="apply"><a href="https://wellfound.com/jobs/4266716-fractional-scrum-master" target="_blank" rel="noopener">Ver vacante ↗</a></div>
-      </div>
-    </div>
-
-    <div class="card t3">
-      <div class="card-head"><span class="tierbadge">TIER 3</span> Vale intentar, con reservas</div>
-      <div class="job">
-        <div><span class="company">Devblock</span> <span class="role">· Project Manager (Remote LATAM) · vía Braintrust</span></div>
-        <span class="usd">$45–50/hr</span>
-        <div class="note">Mejor rate USD vía Braintrust. Reservas: listado "South America" (confirmar MX) + "PM" puede ser tradicional. Ábrelo en tu cuenta Braintrust.</div>
-      </div>
-      <div class="job">
-        <div><span class="company">Kruger NearShore</span> <span class="role">· Project Manager — LATAM</span></div>
-        <span class="usd prob">Por confirmar</span>
-        <div class="note">Vivo (~12 días). Remoto LATAM abierto, sin marcas de moneda local, staffing = carril contractor. 7+ años + PMP o SM. Reservas: PM tradicional (no SM) + moneda no declarada (Kruger ya apareció antes como local CR → verifica bien).</div>
-        <div class="apply"><a href="https://jobgether.com/offer/6a61528f1b23f4f87b3183ff-project-manager---latam" target="_blank" rel="noopener">Ver vacante ↗</a></div>
-      </div>
-      <div class="job">
-        <div><span class="company">Modus Create</span> <span class="role">· Technical PM (M365/Copilot)</span></div>
-        <span class="usd prob">USD probable</span>
-        <div class="note">SAFe + M365/Copilot; tus certs de IA juegan a favor. JD sin verificar (robots).</div>
-        <div class="apply"><a href="https://moduscreate.com/careers/7796458003?gh_jid=7796458003" target="_blank" rel="noopener">Ver vacante ↗</a></div>
-      </div>
-      <div class="job">
-        <div><span class="company">INDI Staffing</span> <span class="role">· Scrum Master (Remote LATAM)</span></div>
-        <span class="usd prob">USD probable</span>
-        <div class="note">INDI = plataforma de BairesDev. Ojo con duplicar pipeline. JD sin verificar.</div>
-        <div class="apply"><a href="https://www.linkedin.com/jobs/view/scrum-master-remote-work-at-indi-staffing-services-4404598641" target="_blank" rel="noopener">Ver vacante ↗</a></div>
-      </div>
-      <div class="job">
-        <div><span class="company">BairesDev</span> <span class="role">· Agile Coach / Scrum Master</span></div>
-        <span class="usd">USD</span>
-        <div class="note">Ya mandaste correo; reqs vivas.</div>
-        <div class="apply"><a href="https://jobgether.com/offer/687e26e0fd9af3ce407e0e22-scrum-master---remote-work-ref-147908" target="_blank" rel="noopener">Ver vacante ↗</a></div>
-      </div>
-    </div>
-    <p class="h2note">⚠️ Antes de aplicar: abre el link y lee el JD (¿residencia en ciudad? ¿beneficios "de ley"/vales = pesos? ¿dominio duro? ¿USD?).</p>
-  </section>
-
-  <section id="applied">
-    <h2>✅ Ya apliqué / en proceso</h2>
-    <div class="card">
-      <table>
-        <thead><tr><th>Empresa</th><th>Rol</th><th>Pago</th><th>Fecha</th><th>Estado</th></tr></thead>
-        <tbody>
-          <tr><td>American Innovations</td><td>Agile Delivery Leader / SM</td><td>USD</td><td>28-jul</td><td>✅ Solicitud completada — entrevista IA hecha 29-jul. Esperando respuesta.</td></tr>
-          <tr><td>BairesDev</td><td>Scrum Master</td><td>USD</td><td>24-jul</td><td>Correo enviado</td></tr>
-          <tr><td>HCLTech</td><td>Scrum Master</td><td>Pesos (prob.)</td><td>24-jul</td><td>Aplicado</td></tr>
-          <tr><td>UST</td><td>Scrum Master I — MX</td><td>Pesos</td><td>24-jul</td><td>Perfil registrado</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <section id="freelance">
-    <h2>💻 Freelance por hora — USD</h2>
-    <p class="h2note">Empieza esta semana (fácil, abierto a México): Outlier + Upwork. Suma Contra y Codementor.</p>
-    <details open>
-      <summary>Plataformas de tareas AI / coding (por hora)</summary>
-      <table>
-        <thead><tr><th>Plataforma</th><th>Pago</th><th>Dificultad</th><th>Nota</th></tr></thead>
-        <tbody>
-          <tr><td><a href="https://app.outlier.ai/" target="_blank" rel="noopener">Outlier</a> ⭐</td><td>$25–50/hr</td><td>Fácil</td><td>Proyectos en español. Tickets de coding.</td></tr>
-          <tr><td><a href="https://www.mercor.com/experts/" target="_blank" rel="noopener">Mercor</a> ⭐</td><td>$25–50+/hr</td><td>Media</td><td>Te matchean con labs de IA.</td></tr>
-          <tr><td><a href="https://micro1.ai/" target="_blank" rel="noopener">Micro1</a></td><td>$20–50/hr</td><td>Media</td><td>Tareas + contratos dev.</td></tr>
-          <tr><td><a href="https://www.alignerr.com/" target="_blank" rel="noopener">Alignerr</a></td><td>$14–30+/hr</td><td>Fácil–Media</td><td>Buen punto de entrada.</td></tr>
-          <tr><td><a href="https://www.turing.com/jobs" target="_blank" rel="noopener">Turing</a></td><td>$20–50/hr</td><td>Media</td><td>De tareas a contrato dev.</td></tr>
-          <tr><td><a href="https://joinhandshake.com/ai" target="_blank" rel="noopener">Handshake AI</a></td><td>$20–40/hr</td><td>Media</td><td>Verificar que acepte México.</td></tr>
-          <tr><td><a href="https://app.prolific.com/" target="_blank" rel="noopener">Prolific</a></td><td>~$8–12/hr</td><td>Fácil</td><td>Encuestas, no coding. Dinero extra.</td></tr>
-        </tbody>
-      </table>
-    </details>
-    <details>
-      <summary>Marketplaces freelance dev (USD)</summary>
-      <table>
-        <thead><tr><th>Plataforma</th><th>Pago</th><th>Dificultad</th><th>Nota</th></tr></thead>
-        <tbody>
-          <tr><td><a href="https://www.upwork.com/signup/" target="_blank" rel="noopener">Upwork</a> ⭐</td><td>Tú fijas $/hr</td><td>Fácil</td><td>El mejor para tickets/bugs. Empieza aquí.</td></tr>
-          <tr><td><a href="https://contra.com/" target="_blank" rel="noopener">Contra</a></td><td>Hora/fijo, 0% comisión</td><td>Fácil</td><td>Segundo después de Upwork.</td></tr>
-          <tr><td><a href="https://www.codementor.io/m/signup" target="_blank" rel="noopener">Codementor</a> ⭐</td><td>$20–60+/hr</td><td>Media</td><td>Sesiones/tickets técnicos. Excelente fit.</td></tr>
-          <tr><td><a href="https://app.careers.revelo.com/" target="_blank" rel="noopener">Revelo</a> ⭐</td><td>USD</td><td>Fácil</td><td>Marketplace LATAM→US, paga en USD.</td></tr>
-          <tr><td><a href="https://workspace.index.dev/register" target="_blank" rel="noopener">Index.dev</a></td><td>USD</td><td>Fácil–Media</td><td>Matching LATAM con roles US en USD.</td></tr>
-          <tr><td><a href="https://lemon.io/for-developers/" target="_blank" rel="noopener">Lemon.io</a></td><td>$30–60+/hr</td><td>Media–Alta</td><td>Vetted LATAM.</td></tr>
-          <tr><td><a href="https://arc.dev/" target="_blank" rel="noopener">Arc.dev</a></td><td>Mercado</td><td>Media–Alta</td><td>Contratos continuos.</td></tr>
-          <tr><td><a href="https://www.usebraintrust.com/" target="_blank" rel="noopener">Braintrust</a></td><td>Hora/contrato, 0% fee</td><td>Media–Alta</td><td>También postea SM/PM.</td></tr>
-          <tr><td><a href="https://www.toptal.com/talent/apply" target="_blank" rel="noopener">Toptal</a></td><td>$60–150+/hr</td><td>Alta</td><td>Meta mediano plazo.</td></tr>
-        </tbody>
-      </table>
-    </details>
-    <p class="h2note">⚠️ Ninguna cobra por registrarte. Si te piden pagar/depositar → estafa.</p>
-  </section>
-
-  <section id="pesos">
-    <h2>🇲🇽 En pausa — pesos</h2>
-    <p class="h2note">Buenos roles, pero moneda local. Solo si abres a pesos.</p>
-    <div class="card">
-      <table>
-        <thead><tr><th>Empresa</th><th>Rol</th><th>Nota</th></tr></thead>
-        <tbody>
-          <tr><td>KMS Technology</td><td>Delivery Manager (MX remoto)</td><td>JD confirmado = pesos (vales, fondo de ahorro). Excelente encaje. El mejor rol en pesos de la lista.</td></tr>
-          <tr><td>mobiik</td><td>Scrum Master Gobernanza (MX remoto)</td><td>Empresa mexicana → pesos. Encaje ok.</td></tr>
-          <tr><td>Genesys</td><td>Scrum Master, IT Engineering</td><td>Confirmar moneda.</td></tr>
-          <tr><td>Genesys</td><td>Agile Coach</td><td>México remoto, confirmar moneda.</td></tr>
-          <tr><td>CITI</td><td>Scrum Master IA</td><td>Pesos.</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-
-  <section id="filtros">
-    <h2>🚩 Filtros rápidos (tache automático)</h2>
-    <div class="filters">
-      <div class="filterbox"><h4>US-only</h4>"U.S. Citizen", "clearance", "Form I-9", "reside in the U.S.", ubicación Virginia/DC/"Remote-US" → descartar sin importar sueldo.</div>
-      <div class="filterbox"><h4>Moneda local</h4>"Mexican law benefits"/prestaciones de ley, vales de despensa, fondo de ahorro, aguinaldo, "Asociación Solidarista" (CR) → pausa (pesos/colones).</div>
-      <div class="filterbox"><h4>País locked</h4>"Brazil/Colombia/Chile – Remote" con idioma local o residencia país → local currency, no MX. "South America"/"Buenos Aires" = Argentina, no MX.</div>
-      <div class="filterbox"><h4>Agregador stale</h4>web3.career/Jobgether con "posted 3 years ago", 410 al abrir, o LinkedIn "No longer accepting" + 1 mes → cerrada aunque el board propio la muestre.</div>
-    </div>
-  </section>
-
-  <section id="descartadas">
-    <h2>🔴 Descartadas / cerradas</h2>
-    <details>
-      <summary>Ver histórico con motivo (26)</summary>
-      <table>
-        <thead><tr><th>Empresa</th><th>Rol</th><th>Motivo</th></tr></thead>
-        <tbody>
-          <tr><td>Infinite Lambda</td><td>Delivery Manager (B2B Contractor)</td><td>Cerrada + no MX (LinkedIn "No longer accepting", Buenos Aires/South America).</td></tr>
-          <tr><td>rocket code</td><td>SM + PM (CDMX)</td><td>Presencial Polanco + pesos + listado removido.</td></tr>
-          <tr><td>Braintrust (True Ventures)</td><td>Scrum Master $40–42/hr</td><td>Cerrado ("no longer accepting").</td></tr>
-          <tr><td>Brasil/Colombia (grupo)</td><td>SM / Agile Coach / DM</td><td>País-locked, idioma local, no MX/USD (Dev.Pro, Minsait, GFT, Tekton, Ubiminds…).</td></tr>
-          <tr><td>Rimutee</td><td>SM (Costa Rica)</td><td>CR-focused, sin versión MX, colones/local.</td></tr>
-          <tr><td>Software Mind</td><td>Senior SM (San José CR)</td><td>Ubicación fija CR, local/colones.</td></tr>
-          <tr><td>3Pillar Global</td><td>Senior SM (Costa Rica)</td><td>Contratación local CR (colones). Board sin versión MX.</td></tr>
-          <tr><td>US-only SM (grupo)</td><td>SM "United States (Remote)" / clearance</td><td>Autorización US y/o clearance (GovCIO, Ad Hoc, Enumerate, UST US, Accenture…).</td></tr>
-          <tr><td>Haystack</td><td>SM (Virginia, national security)</td><td>Secret clearance + Virginia.</td></tr>
-          <tr><td>Inadev</td><td>SM (US Remote $120k)</td><td>Citizen + clearance + residir EE.UU.</td></tr>
-          <tr><td>Avum Inc.</td><td>Remote SM</td><td>Contratista DoD/federal → autorización US.</td></tr>
-          <tr><td>ALTEN México</td><td>Junior SM</td><td>Junior (sobrecalificado) + prob. pesos.</td></tr>
-          <tr><td>LatamCent</td><td>Product Delivery Manager</td><td>Exige shipping iOS+Android. Hueco móvil.</td></tr>
-          <tr><td>10Pearls</td><td>SM</td><td>Presencial on-site Costa Rica.</td></tr>
-          <tr><td>Salesforce</td><td>Sr Engagement DM</td><td>Colombia only + viajes + PMP obligatorio.</td></tr>
-          <tr><td>Devsu</td><td>Sr SM (Fintech)</td><td>Residencia Quito + fintech/móvil.</td></tr>
-          <tr><td>Nearsure</td><td>Project Manager</td><td>Cerrada (absorbida por Nortal).</td></tr>
-          <tr><td>FullStack Labs</td><td>Sr PM / SM LATAM</td><td>Vacante cerrada.</td></tr>
-          <tr><td>GSB Solutions</td><td>SM (CDMX)</td><td>On-site CDMX + prob. pesos.</td></tr>
-          <tr><td>Braintrust/Nestlé</td><td>SM $54–68/hr</td><td>Agregador stale ("posted 3 years ago").</td></tr>
-          <tr><td>Tekton Labs</td><td>Delivery Manager / SM LATAM</td><td>Links 410/removido + pide cert Scrum Alliance/Scrum.org.</td></tr>
-          <tr><td>Cognizant · Stefanini · Liverpool</td><td>SM</td><td>Infra/híbrido/presencial (León, CDMX, Santa Fe).</td></tr>
-          <tr><td>Wizeline · Lumenalta · Gorilla Logic · Jobsity</td><td>varios</td><td>Sin SM abierto / solo roles técnicos / Colombia-CR.</td></tr>
-          <tr><td>Papigen · Allshore · Sequoia</td><td>PM/SM LATAM</td><td>Colombia only / ya descartadas (reaparecen en boards).</td></tr>
-          <tr><td>First Advantage</td><td>Associate SM</td><td>Sobrecalificado.</td></tr>
-          <tr><td>Encora / Applaudo / Oowlish</td><td>—</td><td>Sin SM abierto en LATAM.</td></tr>
-        </tbody>
-      </table>
-    </details>
-  </section>
-</main>
-
-<footer>
-  Dashboard generado desde el registro del proyecto de búsqueda. Contenido ofuscado (sin datos personales identificables). Se actualiza con la corrida diaria (~7am).
-</footer>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
 <script>
-  // Filtro de búsqueda en memoria (sin storage)
-  var input = document.getElementById('search');
-  input.addEventListener('input', function(){
+  var contentEl = document.getElementById('content');
+
+  function load(bust){
+    var url = 'dashboard.md' + (bust ? ('?t=' + (bust===true?1:bust)) : '');
+    fetch(url, {cache: bust ? 'reload' : 'default'})
+      .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.text(); })
+      .then(function(md){
+        contentEl.innerHTML = marked.parse(md);
+        // envolver tablas para scroll horizontal en móvil
+        contentEl.querySelectorAll('table').forEach(function(t){
+          if(t.parentElement.classList.contains('tablewrap')) return;
+          var w = document.createElement('div'); w.className='tablewrap';
+          t.parentNode.insertBefore(w, t); w.appendChild(t);
+        });
+      })
+      .catch(function(e){
+        contentEl.innerHTML = '<div class="err">No se pudo cargar dashboard.md ('+e.message+'). Si acabas de crear el sitio, espera 1 min y recarga.</div>';
+      });
+  }
+  load();
+
+  // Filtro de filas de tabla (en memoria)
+  document.getElementById('search').addEventListener('input', function(){
     var q = this.value.trim().toLowerCase();
-    document.querySelectorAll('.job').forEach(function(el){
-      var t = el.textContent.toLowerCase();
-      el.classList.toggle('hidden', q && t.indexOf(q) === -1);
-    });
-    document.querySelectorAll('table tbody tr').forEach(function(el){
-      var t = el.textContent.toLowerCase();
-      el.classList.toggle('hidden', q && t.indexOf(q) === -1);
+    contentEl.querySelectorAll('table tbody tr').forEach(function(tr){
+      tr.classList.toggle('hidden', q && tr.textContent.toLowerCase().indexOf(q) === -1);
     });
   });
 </script>
