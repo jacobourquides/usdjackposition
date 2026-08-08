@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow">
+<title>Dashboard — Vacantes Remotas USD</title>
+<style>
+  :root{
+    --bg:#0f1420; --panel:#171d2b; --panel2:#1e2536; --border:#2a3346;
+    --text:#e6ebf5; --muted:#98a4bd; --accent:#5b8cff;
+    --t1:#3ddc84; --t2:#ffd166; --t3:#f79f5b; --pausa:#8aa0c6; --desc:#ff6b6b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;font-size:15px}
+  .wrap{max-width:1000px;margin:0 auto;padding:24px 20px 70px}
+  .topbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+  .brand{font-size:13px;color:var(--muted)}
+  .refresh{background:var(--panel);border:1px solid var(--border);color:var(--accent);border-radius:8px;padding:7px 12px;font-size:13px;cursor:pointer}
+  .refresh:hover{background:var(--panel2)}
+  .tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 16px;border-bottom:1px solid var(--border)}
+  .tab{background:transparent;border:1px solid var(--border);border-bottom:none;color:var(--muted);border-radius:10px 10px 0 0;padding:9px 16px;font-size:14px;cursor:pointer;font-weight:600;position:relative;top:1px}
+  .tab:hover{color:var(--text);background:var(--panel)}
+  .tab.active{color:var(--accent);background:var(--panel2);border-color:var(--border)}
+  #search{width:100%;background:var(--panel);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:10px 12px;font-size:14px;margin:0 0 20px}
+  /* markdown */
+  #md h1{font-size:26px;margin:6px 0 4px}
+  #md h2{font-size:20px;margin:34px 0 6px;padding-bottom:6px;border-bottom:1px solid var(--border)}
+  #md h3{font-size:16px;margin:22px 0 4px;color:var(--accent)}
+  #md h4{font-size:14px;margin:16px 0 4px}
+  #md p{margin:10px 0}
+  #md a{color:var(--accent);text-decoration:none}
+  #md a:hover{text-decoration:underline}
+  #md hr{border:none;border-top:1px solid var(--border);margin:26px 0}
+  #md blockquote{margin:14px 0;padding:10px 14px;background:var(--panel2);border-left:4px solid var(--accent);border-radius:8px;color:#cdd6ea}
+  #md ul{padding-left:20px}
+  #md li{margin:5px 0}
+  #md code{background:var(--panel2);padding:2px 6px;border-radius:5px;font-size:13px}
+  .tablewrap{overflow-x:auto;margin:12px 0;border:1px solid var(--border);border-radius:10px}
+  #md table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:560px}
+  #md th,#md td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:top}
+  #md th{background:var(--panel2);color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.3px}
+  #md tr:last-child td{border-bottom:none}
+  #md tbody tr:hover{background:var(--panel)}
+  /* interactive */
+  h1.title{font-size:24px;margin:6px 0 2px}
+  .marketnote{margin:10px 0 6px;padding:10px 14px;background:var(--panel2);border-left:4px solid var(--t2);border-radius:8px;color:#e7ddc0;font-size:13.5px}
+  .toolrow{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:14px 0 6px}
+  .btn{background:var(--panel);border:1px solid var(--border);color:var(--text);border-radius:8px;padding:7px 11px;font-size:12.5px;cursor:pointer}
+  .btn:hover{background:var(--panel2)}
+  .btn.accent{color:var(--accent)}
+  .counters{font-size:12.5px;color:var(--muted);margin-left:auto}
+  .group{margin:20px 0 6px}
+  .group h3{font-size:14px;letter-spacing:.3px;text-transform:uppercase;margin:0 0 8px;display:flex;align-items:center;gap:8px}
+  .dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+  .g1 .dot{background:var(--t1)} .g2 .dot{background:var(--t2)} .g3 .dot{background:var(--t3)}
+  .gpausa .dot{background:var(--pausa)} .gdescartada .dot{background:var(--desc)}
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:10px;padding:12px 14px;margin:8px 0}
+  .card.applied{border-color:var(--t1);box-shadow:inset 3px 0 0 var(--t1)}
+  .card.gdescartada, .card.gpausa{opacity:.72}
+  .card .h{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;flex-wrap:wrap}
+  .card .co{font-weight:700;font-size:15px}
+  .card .role{color:var(--muted);font-size:13.5px}
+  .badges{display:flex;gap:6px;flex-wrap:wrap;margin-top:2px}
+  .badge{font-size:11px;padding:2px 7px;border-radius:20px;border:1px solid var(--border);color:var(--muted)}
+  .badge.usd{color:var(--t1);border-color:#2c5}
+  .badge.pay{color:var(--t2);border-color:#a83}
+  .card .note{font-size:12.5px;color:#c3cde0;margin:8px 0 0}
+  .ctrls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-top:10px}
+  .ctrls select{background:var(--panel2);border:1px solid var(--border);color:var(--text);border-radius:7px;padding:5px 8px;font-size:12.5px}
+  .ctrls label{font-size:12.5px;color:var(--muted);display:flex;align-items:center;gap:5px;cursor:pointer}
+  .mini{background:var(--panel2);border:1px solid var(--border);color:var(--muted);border-radius:6px;width:30px;height:28px;cursor:pointer;font-size:13px}
+  .mini:hover{color:var(--text)}
+  .card a.open{color:var(--accent);text-decoration:none;font-size:12.5px}
+  .noteedit{width:100%;margin-top:8px;background:var(--panel2);border:1px solid var(--border);color:var(--text);border-radius:7px;padding:7px 9px;font-size:12.5px;display:none}
+  .flist{margin:8px 0}
+  .frow{display:flex;gap:10px;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--border);font-size:13px}
+  .frow a{color:var(--accent);text-decoration:none}
+  .hidden{display:none!important}
+  .loading{color:var(--muted);padding:40px 0;text-align:center}
+  .err{color:#ff8080;padding:20px;background:var(--panel);border:1px solid var(--border);border-radius:10px}
+  footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);margin-top:40px;padding-top:16px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <span class="brand">📋 Dashboard de vacantes · se actualiza cada mañana</span>
+    <button class="refresh" onclick="reloadCurrent()">↻ Recargar</button>
+  </div>
+  <div class="tabs" id="tabs">
+    <button class="tab active" data-mode="md" data-src="dashboard.md">💼 Vacantes USD (SM/PM)</button>
+    <button class="tab" data-mode="sunny" data-src="sunny_jobs.json">⚖️ Dashboard Sunny</button>
+  </div>
+  <input type="text" id="search" placeholder="🔎 Filtrar por empresa, rol o palabra…">
+  <div id="md"><div class="loading">Cargando…</div></div>
+  <div id="sunny" class="hidden"><div class="loading">Cargando…</div></div>
+  <footer>Contenido ofuscado (sin datos personales). La pestaña <b>Dashboard Sunny</b> es editable: tus cambios (prioridad, aplicada, descartada, notas) se guardan en <b>este navegador</b>. Usa <b>Exportar</b> para respaldarlos o pasarlos.</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script>
+  var mode = 'md', mdSrc = 'dashboard.md', sunnySrc = 'sunny_jobs.json';
+  var mdEl = document.getElementById('md');
+  var sunnyEl = document.getElementById('sunny');
+  var searchEl = document.getElementById('search');
+  var LSKEY = 'sunny_overrides_v1';
+  var sunnyData = null;
+
+  var TIERS = [
+    {k:'1', label:'🟢 TIER 1 — Encaje fuerte (USD + México + part-time/async)', cls:'g1'},
+    {k:'2', label:'🟡 TIER 2 — Buen tiro (1 hueco: México u horario)', cls:'g2'},
+    {k:'3', label:'🟠 TIER 3 — Vía staffing/BPO', cls:'g3'},
+    {k:'pausa', label:'🌎 En pausa / por confirmar', cls:'gpausa'},
+    {k:'descartada', label:'🔴 Descartadas / expiradas', cls:'gdescartada'},
+    {k:'aplicada', label:'✅ Aplicadas', cls:'g1'}
+  ];
+  var TIER_OPTS = [
+    ['1','Tier 1'],['2','Tier 2'],['3','Tier 3'],['pausa','En pausa'],['descartada','Descartar']
+  ];
+
+  // ---------- helpers ----------
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];}); }
+
+  // ---------- overrides ----------
+  function loadOv(){ try{ return JSON.parse(localStorage.getItem(LSKEY)||'{}'); }catch(e){ return {}; } }
+  function saveOv(o){ localStorage.setItem(LSKEY, JSON.stringify(o)); }
+  function ov(id){ var o=loadOv(); return o[id]||{}; }
+  function setOv(id, patch){ var o=loadOv(); o[id]=Object.assign({}, o[id]||{}, patch); saveOv(o); }
+
+  function effTier(job){ var o=ov(job.id); return (o.applied? 'aplicada' : (o.tier || job.tier)); }
+  function effOrder(job, baseIdx){ var o=ov(job.id); return (typeof o.order==='number')? o.order : baseIdx; }
+  function effNote(job){ var o=ov(job.id); return (o.note!=null)? o.note : job.note; }
+
+  // ---------- render sunny ----------
+  function renderSunny(){
+    if(!sunnyData){ return; }
+    var q = searchEl.value.trim().toLowerCase();
+    var jobs = sunnyData.jobs.map(function(j,i){ return {job:j, base:i}; });
+    var html = '';
+    html += '<h1 class="title">⚖️ Dashboard Sunny — Legal Remoto USD</h1>';
+    html += '<div class="marketnote">⚠️ '+esc(sunnyData.market_note)+'</div>';
+
+    // counters
+    var c = {'1':0,'2':0,'3':0,'pausa':0,'descartada':0,'aplicada':0};
+    jobs.forEach(function(x){ c[effTier(x.job)]++; });
+    html += '<div class="toolrow">';
+    html += '<button class="btn accent" onclick="exportOv()">⬇️ Exportar mis cambios</button>';
+    html += '<label class="btn" style="cursor:pointer">⬆️ Importar<input type="file" accept="application/json" style="display:none" onchange="importOv(this)"></label>';
+    html += '<button class="btn" onclick="resetOv()">↺ Restablecer</button>';
+    html += '<span class="counters">T1: '+c['1']+' · T2: '+c['2']+' · T3: '+c['3']+' · Pausa: '+c['pausa']+' · Descartadas: '+c['descartada']+' · Aplicadas: '+c['aplicada']+'</span>';
+    html += '</div>';
+
+    TIERS.forEach(function(t){
+      var list = jobs.filter(function(x){ return effTier(x.job)===t.k; });
+      if(q){ list = list.filter(function(x){ return (x.job.company+' '+x.job.role+' '+effNote(x.job)).toLowerCase().indexOf(q)>-1; }); }
+      list.sort(function(a,b){ return effOrder(a.job,a.base) - effOrder(b.job,b.base); });
+      if(list.length===0 && q) return;
+      html += '<div class="group '+t.cls+'"><h3><span class="dot"></span>'+esc(t.label)+' <span style="color:var(--muted);font-weight:400">('+list.length+')</span></h3>';
+      if(list.length===0){ html += '<div style="color:var(--muted);font-size:13px;padding:2px 2px 6px">—</div>'; }
+      list.forEach(function(x, idx){
+        html += cardHTML(x.job, t, idx, list.length);
+      });
+      html += '</div>';
+    });
+
+    // freelance
+    html += '<div class="group"><h3>💻 Freelance / contratista — nicho forense (mejor $/hora, async · recomendado)</h3><div class="flist">';
+    sunnyData.freelance.forEach(function(f){
+      html += '<div class="frow"><div><b>'+(f.star?'⭐ ':'')+esc(f.platform)+'</b> — <span style="color:var(--muted)">'+esc(f.para)+'</span></div><a href="'+esc(f.link)+'" target="_blank" rel="noopener">Abrir →</a></div>';
+    });
+    html += '</div></div>';
+
+    sunnyEl.innerHTML = html;
+  }
+
+  function cardHTML(job, t, idx, total){
+    var o = ov(job.id);
+    var applied = !!o.applied;
+    var cls = 'card '+t.cls+(applied?' applied':'');
+    var h = '<div class="'+cls+'" data-id="'+job.id+'">';
+    h += '<div class="h"><div><div class="co">'+esc(job.company)+'</div><div class="role">'+esc(job.role)+'</div>';
+    h += '<div class="badges">';
+    if(job.usd) h += '<span class="badge usd">USD: '+esc(job.usd)+'</span>';
+    if(job.pay) h += '<span class="badge pay">'+esc(job.pay)+'</span>';
+    if(applied && o.appliedDate) h += '<span class="badge">Aplicada '+esc(o.appliedDate)+'</span>';
+    h += '</div></div>';
+    if(job.link) h += '<a class="open" href="'+esc(job.link)+'" target="_blank" rel="noopener">Abrir →</a>';
+    h += '</div>';
+    var note = effNote(job);
+    if(note) h += '<div class="note">'+esc(note)+'</div>';
+    // controls
+    h += '<div class="ctrls">';
+    h += '<select onchange="changeTier(\''+job.id+'\',this.value)" title="Cambiar prioridad">';
+    TIER_OPTS.forEach(function(op){
+      var sel = (effTier(job)===op[0] || (effTier(job)==='aplicada' && op[0]===(o.tier||job.tier)))?' selected':'';
+      h += '<option value="'+op[0]+'"'+sel+'>'+op[1]+'</option>';
+    });
+    h += '</select>';
+    h += '<label><input type="checkbox" '+(applied?'checked':'')+' onchange="toggleApplied(\''+job.id+'\',this.checked)"> Aplicada</label>';
+    h += '<button class="mini" title="Subir prioridad" onclick="move(\''+job.id+'\',-1)" '+(idx===0?'disabled':'')+'>▲</button>';
+    h += '<button class="mini" title="Bajar prioridad" onclick="move(\''+job.id+'\',1)" '+(idx===total-1?'disabled':'')+'>▼</button>';
+    h += '<button class="mini" title="Nota" onclick="toggleNote(this)">✎</button>';
+    h += '</div>';
+    h += '<textarea class="noteedit" placeholder="Tu nota…" oninput="editNote(\''+job.id+'\',this.value)">'+esc(o.note!=null?o.note:'')+'</textarea>';
+    h += '</div>';
+    return h;
+  }
+
+  // ---------- actions ----------
+  function changeTier(id, val){ var p={tier:val}; if(val!=null) p.applied=false; setOv(id,p); renderSunny(); }
+  function toggleApplied(id, on){
+    var patch = {applied:on};
+    if(on){ patch.appliedDate = new Date().toISOString().slice(0,10); }
+    setOv(id, patch); renderSunny();
+  }
+  function move(id, dir){
+    // reorder within current effective tier
+    var job = sunnyData.jobs.filter(function(j){return j.id===id;})[0];
+    var tier = effTier(job);
+    var group = sunnyData.jobs.map(function(j,i){return {job:j,base:i};})
+      .filter(function(x){ return effTier(x.job)===tier; })
+      .sort(function(a,b){ return effOrder(a.job,a.base)-effOrder(b.job,b.base); });
+    var pos = group.findIndex(function(x){return x.job.id===id;});
+    var np = pos+dir;
+    if(np<0||np>=group.length) return;
+    var tmp = group[pos]; group[pos]=group[np]; group[np]=tmp;
+    group.forEach(function(x,i){ setOv(x.job.id, {order:i}); });
+    renderSunny();
+  }
+  function toggleNote(btn){ var ta=btn.closest('.card').querySelector('.noteedit'); ta.style.display = ta.style.display==='block'?'none':'block'; if(ta.style.display==='block') ta.focus(); }
+  function editNote(id, val){ setOv(id, {note:val}); }
+  function exportOv(){
+    var blob = new Blob([JSON.stringify(loadOv(),null,2)], {type:'application/json'});
+    var a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='sunny_cambios.json'; a.click();
+  }
+  function importOv(input){
+    var f=input.files[0]; if(!f) return; var r=new FileReader();
+    r.onload=function(){ try{ var o=JSON.parse(r.result); saveOv(o); renderSunny(); }catch(e){ alert('Archivo inválido'); } };
+    r.readAsText(f);
+  }
+  function resetOv(){ if(confirm('¿Borrar todos tus cambios y volver a la priorización original?')){ localStorage.removeItem(LSKEY); renderSunny(); } }
+
+  // ---------- markdown loader ----------
+  function loadMd(bust){
+    mdEl.innerHTML='<div class="loading">Cargando…</div>';
+    fetch(mdSrc + (bust?('?t='+Date.now()):''), {cache: bust?'reload':'default'})
+      .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.text(); })
+      .then(function(md){
+        mdEl.innerHTML = marked.parse(md);
+        mdEl.querySelectorAll('table').forEach(function(t){
+          if(t.parentElement.classList.contains('tablewrap')) return;
+          var w=document.createElement('div'); w.className='tablewrap';
+          t.parentNode.insertBefore(w,t); w.appendChild(t);
+        });
+        applyMdFilter();
+      })
+      .catch(function(e){ mdEl.innerHTML='<div class="err">No se pudo cargar '+mdSrc+' ('+e.message+').</div>'; });
+  }
+  function loadSunny(bust){
+    sunnyEl.innerHTML='<div class="loading">Cargando…</div>';
+    fetch(sunnySrc + (bust?('?t='+Date.now()):''), {cache: bust?'reload':'default'})
+      .then(function(r){ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); })
+      .then(function(d){ sunnyData=d; renderSunny(); })
+      .catch(function(e){ sunnyEl.innerHTML='<div class="err">No se pudo cargar '+sunnySrc+' ('+e.message+'). Si acabas de crear el archivo, espera 1 min y recarga.</div>'; });
+  }
+  function reloadCurrent(){ if(mode==='md') loadMd(true); else loadSunny(true); }
+
+  // ---------- tabs ----------
+  document.querySelectorAll('#tabs .tab').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if(this.classList.contains('active')) return;
+      document.querySelectorAll('#tabs .tab').forEach(function(b){b.classList.remove('active');});
+      this.classList.add('active');
+      mode = this.getAttribute('data-mode');
+      if(mode==='md'){ mdEl.classList.remove('hidden'); sunnyEl.classList.add('hidden'); if(mdEl.querySelector('.loading')||!mdEl.innerHTML) loadMd(); }
+      else { sunnyEl.classList.remove('hidden'); mdEl.classList.add('hidden'); if(!sunnyData) loadSunny(); else renderSunny(); }
+    });
+  });
+
+  // ---------- search ----------
+  function applyMdFilter(){
+    var q = searchEl.value.trim().toLowerCase();
+    mdEl.querySelectorAll('table tbody tr').forEach(function(tr){
+      tr.classList.toggle('hidden', q && tr.textContent.toLowerCase().indexOf(q)===-1);
+    });
+  }
+  searchEl.addEventListener('input', function(){ if(mode==='md') applyMdFilter(); else renderSunny(); });
+
+  loadMd();
+</script>
+</body>
+</html>
