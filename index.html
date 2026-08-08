@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="robots" content="noindex, nofollow">
 <title>Dashboard — Vacantes Remotas USD</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Quicksand:wght@400;500;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg:#0f1420; --panel:#171d2b; --panel2:#1e2536; --border:#2a3346;
@@ -80,6 +83,54 @@
   .loading{color:var(--muted);padding:40px 0;text-align:center}
   .err{color:#ff8080;padding:20px;background:var(--panel);border:1px solid var(--border);border-radius:10px}
   footer{color:var(--muted);font-size:12px;border-top:1px solid var(--border);margin-top:40px;padding-top:16px}
+
+  /* ===================== Tema Sunny (girly + polka dots) ===================== */
+  body.theme-sunny{
+    background-color:#ffe6f2;
+    background-image:radial-gradient(#ffb6da 11%, transparent 12%), radial-gradient(#ffcce6 11%, transparent 12%);
+    background-size:44px 44px; background-position:0 0, 22px 22px;
+    color:#5c2b4d; font-family:'Quicksand',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  }
+  body.theme-sunny .brand{color:#b0568a;font-weight:600}
+  body.theme-sunny .refresh{background:#fff;border:2px solid #ffb0d6;color:#e05fa0;border-radius:20px;font-weight:700}
+  body.theme-sunny .refresh:hover{background:#fff0f7}
+  body.theme-sunny .tabs{border-bottom:2px dashed #ff9ccb}
+  body.theme-sunny .tab{color:#b0568a;border:2px solid #ffc2de;border-bottom:none;background:#fff6fb;border-radius:16px 16px 0 0;font-family:'Baloo 2',cursive,sans-serif}
+  body.theme-sunny .tab:hover{background:#ffe9f4;color:#e05fa0}
+  body.theme-sunny .tab.active{color:#e05fa0;background:#fff;border-color:#ff9ccb;box-shadow:0 -3px 0 #ff9ccb inset}
+  body.theme-sunny #search{background:#fff;border:2px solid #ffb0d6;color:#5c2b4d;border-radius:16px}
+  body.theme-sunny #search::placeholder{color:#c98db3}
+  body.theme-sunny footer{color:#b0568a;border-top:2px dashed #ff9ccb}
+
+  .theme-sunny .sunhead{display:flex;align-items:center;gap:14px;margin:6px 0 2px}
+  .theme-sunny .sunhead h1{font-family:'Baloo 2',cursive,sans-serif;font-size:30px;margin:0;color:#e05fa0;line-height:1.05;text-shadow:2px 2px 0 #fff, 3px 3px 0 #ffd0e6}
+  .theme-sunny .subtitle{color:#b0568a;font-size:13px;font-weight:600;margin-top:2px}
+  .theme-sunny .sun{width:52px;height:52px;flex:none;filter:drop-shadow(0 2px 3px rgba(230,95,160,.35))}
+  .theme-sunny .sun .rays{transform-origin:24px 24px;animation:spin 16s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  .theme-sunny .marketnote{background:#fff4c2;border-left:6px solid #ffcf4d;border-radius:16px;color:#7a5a20;box-shadow:0 3px 0 #ffe39a}
+  .theme-sunny .toolrow .btn{background:#fff;border:2px solid #ffb0d6;color:#e05fa0;border-radius:20px;font-weight:700}
+  .theme-sunny .toolrow .btn:hover{background:#fff0f7}
+  .theme-sunny .toolrow .btn.accent{color:#c44d92;border-color:#e79cff;background:#fbf0ff}
+  .theme-sunny .counters{color:#b0568a;font-weight:600}
+  .theme-sunny .group h3{color:#c44d92;font-family:'Baloo 2',cursive,sans-serif;text-transform:none;letter-spacing:0;font-size:16.5px}
+  .theme-sunny .group .dot{box-shadow:0 0 0 3px #fff}
+  .theme-sunny .card{background:#fff;border:2px solid #ffc2de;border-radius:20px;box-shadow:0 5px 0 #ffd6ea}
+  .theme-sunny .card.applied{border-color:#7ed957;box-shadow:0 5px 0 #c7f0b6}
+  .theme-sunny .card.gdescartada,.theme-sunny .card.gpausa{opacity:.8}
+  .theme-sunny .card .co{color:#c44d92;font-family:'Baloo 2',cursive,sans-serif}
+  .theme-sunny .card .role{color:#9a6d88}
+  .theme-sunny .card .note{color:#6b4a5e}
+  .theme-sunny .badge{border:2px solid #ffc2de;color:#b0568a;background:#fff6fb}
+  .theme-sunny .badge.usd{color:#3aa66a;border-color:#a7e6c1;background:#f0fff6}
+  .theme-sunny .badge.pay{color:#d98a00;border-color:#ffdf9e;background:#fffbe9}
+  .theme-sunny .ctrls select{background:#fff6fb;border:2px solid #ffb0d6;color:#5c2b4d;border-radius:12px;font-weight:600}
+  .theme-sunny .ctrls label{color:#9a6d88}
+  .theme-sunny .mini{background:#fff6fb;border:2px solid #ffb0d6;color:#e05fa0;border-radius:10px}
+  .theme-sunny .mini:hover{background:#ffe9f4}
+  .theme-sunny .card a.open,.theme-sunny .frow a{color:#e05fa0;font-weight:700}
+  .theme-sunny .noteedit{background:#fff6fb;border:2px solid #ffb0d6;color:#5c2b4d;border-radius:12px}
+  .theme-sunny .frow{border-bottom:2px dotted #ffcce6}
 </style>
 </head>
 <body>
@@ -90,7 +141,7 @@
   </div>
   <div class="tabs" id="tabs">
     <button class="tab active" data-mode="md" data-src="dashboard.md">💼 Vacantes USD (SM/PM)</button>
-    <button class="tab" data-mode="sunny" data-src="sunny_jobs.json">⚖️ Dashboard Sunny</button>
+    <button class="tab" data-mode="sunny" data-src="sunny_jobs.json">☀️ Dashboard Sunny</button>
   </div>
   <input type="text" id="search" placeholder="🔎 Filtrar por empresa, rol o palabra…">
   <div id="md"><div class="loading">Cargando…</div></div>
@@ -106,6 +157,18 @@
   var searchEl = document.getElementById('search');
   var LSKEY = 'sunny_overrides_v1';
   var sunnyData = null;
+  var SUN_SVG = '<svg class="sun" viewBox="0 0 48 48" aria-hidden="true">'+
+    '<g class="rays" stroke="#ffb400" stroke-width="3" stroke-linecap="round">'+
+    '<line x1="24" y1="2" x2="24" y2="9"/><line x1="46" y1="24" x2="39" y2="24"/>'+
+    '<line x1="24" y1="46" x2="24" y2="39"/><line x1="2" y1="24" x2="9" y2="24"/>'+
+    '<line x1="39.6" y1="8.4" x2="34.6" y2="13.4"/><line x1="39.6" y1="39.6" x2="34.6" y2="34.6"/>'+
+    '<line x1="8.4" y1="39.6" x2="13.4" y2="34.6"/><line x1="8.4" y1="8.4" x2="13.4" y2="13.4"/>'+
+    '</g>'+
+    '<circle cx="24" cy="24" r="11" fill="#ffd23f" stroke="#ffb400" stroke-width="2"/>'+
+    '<circle cx="19.5" cy="27" r="2" fill="#ffb0cf"/><circle cx="28.5" cy="27" r="2" fill="#ffb0cf"/>'+
+    '<circle cx="20.5" cy="22.5" r="1.5" fill="#c44d92"/><circle cx="27.5" cy="22.5" r="1.5" fill="#c44d92"/>'+
+    '<path d="M20 26.5 q4 3.5 8 0" stroke="#c44d92" stroke-width="1.8" fill="none" stroke-linecap="round"/>'+
+    '</svg>';
 
   var TIERS = [
     {k:'1', label:'🟢 TIER 1 — Encaje fuerte (USD + México + part-time/async)', cls:'g1'},
@@ -138,7 +201,7 @@
     var q = searchEl.value.trim().toLowerCase();
     var jobs = sunnyData.jobs.map(function(j,i){ return {job:j, base:i}; });
     var html = '';
-    html += '<h1 class="title">⚖️ Dashboard Sunny — Legal Remoto USD</h1>';
+    html += '<div class="sunhead">'+SUN_SVG+'<div><h1>Dashboard Sunny</h1><div class="subtitle">Legal remoto USD · segundo ingreso flexible ☀️</div></div></div>';
     html += '<div class="marketnote">⚠️ '+esc(sunnyData.market_note)+'</div>';
 
     // counters
@@ -267,16 +330,24 @@
   function reloadCurrent(){ if(mode==='md') loadMd(true); else loadSunny(true); }
 
   // ---------- tabs ----------
+  function applyTab(m){
+    if(m!=='md' && m!=='sunny') m='md';
+    mode = m;
+    document.querySelectorAll('#tabs .tab').forEach(function(b){ b.classList.toggle('active', b.getAttribute('data-mode')===m); });
+    document.body.classList.toggle('theme-sunny', m==='sunny');
+    if(m==='md'){ mdEl.classList.remove('hidden'); sunnyEl.classList.add('hidden'); if(mdEl.querySelector('.loading')||!mdEl.innerHTML) loadMd(); }
+    else { sunnyEl.classList.remove('hidden'); mdEl.classList.add('hidden'); if(!sunnyData) loadSunny(); else renderSunny(); }
+  }
+  function hashToMode(){ return location.hash.slice(1)==='sunny' ? 'sunny' : 'md'; }
+  function goTab(m){
+    var h = (m==='sunny') ? 'sunny' : 'jack';
+    if(location.hash.slice(1)!==h){ location.hash = h; }  // cambia la URL y dispara hashchange
+    else { applyTab(m); }
+  }
   document.querySelectorAll('#tabs .tab').forEach(function(btn){
-    btn.addEventListener('click', function(){
-      if(this.classList.contains('active')) return;
-      document.querySelectorAll('#tabs .tab').forEach(function(b){b.classList.remove('active');});
-      this.classList.add('active');
-      mode = this.getAttribute('data-mode');
-      if(mode==='md'){ mdEl.classList.remove('hidden'); sunnyEl.classList.add('hidden'); if(mdEl.querySelector('.loading')||!mdEl.innerHTML) loadMd(); }
-      else { sunnyEl.classList.remove('hidden'); mdEl.classList.add('hidden'); if(!sunnyData) loadSunny(); else renderSunny(); }
-    });
+    btn.addEventListener('click', function(){ goTab(this.getAttribute('data-mode')); });
   });
+  window.addEventListener('hashchange', function(){ applyTab(hashToMode()); });
 
   // ---------- search ----------
   function applyMdFilter(){
@@ -287,7 +358,8 @@
   }
   searchEl.addEventListener('input', function(){ if(mode==='md') applyMdFilter(); else renderSunny(); });
 
-  loadMd();
+  // Abrir en la pestaña del hash (permite bookmark directo a #sunny / #jack)
+  applyTab(hashToMode());
 </script>
 </body>
 </html>
