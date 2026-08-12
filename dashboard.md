@@ -1,96 +1,102 @@
-# ⚖️ Dashboard Sunny — Legal Remoto USD (segundo ingreso / flexible)
+# 💼 Dashboard — Vacantes Scrum Master / PM Remoto (USD + México)
 
-**Objetivo: un trabajo remoto EXTRA pagado en USD, desde México, en el giro legal (US law firms) o nicho forense/psicológico. Horario compatible con el trabajo actual → part-time, flexible, async o fin de semana.**
+**Objetivo:** trabajo remoto de Scrum Master / Project Manager. **Carril A (prioridad): USD** vía contractor/marketplace. **Carril B: buen remoto en pesos desde México.**
 
-_Última actualización: **10-ago-2026**. Tablero acumulativo: verifica antes de contar, clasifica por tiers, nada se borra._
+**Última actualización: 12 Ago 26**
 
-## 🗒️ Resumen de la última actualización (10-ago) — platicado
-Hoy se barrieron los boards de LATAM y México (Remote Rocketship, Jobgether, ZipRecruiter). La foto no cambió de fondo: **sigue sin aparecer soporte legal part-time en USD desde México** — todo lo que abre México es de tiempo completo con horario fijo de EU, así que ninguno califica como "segundo trabajo" limpio. Lo bueno del día fueron **dos altas que pegan mucho mejor con el perfil forense/penal**: Laborde Earles, un despacho de Personal Injury donde armaría los **accident reports** e investigación del caso (lo más cercano a su trabajo actual de reportes), y Rob Levine, un **paralegal de defensa criminal** (nicho penal); ambos con México confirmado, aunque full-time y con el pago sin declarar. Rob Levine además se sumó como **canal de staffing** (tiene 5 roles recurrentes en México). Se descartó **Back Office Betties**: era el único part-time real del día ($17–19/hr, 25 h/sem) pero está **geo-bloqueado a EU** (AZ/NV/PA/TX/UT). Conclusión que se repite tres corridas seguidas: el empleo part-time da poco fruto y **la mejor apuesta sigue siendo el camino B — contratista freelance en el nicho forense/mitigación** (mejor $/hora, async). Contadores: vivas 13, aplicadas 0, en pausa 2, descartadas 4.
+---
 
-## 🧑 Perfil (genérico)
-- Ya tiene un empleo remoto full-time en inglés; busca un **segundo ingreso part-time/async** (no puede empalmar dos full-time).
-- Rol actual: redacción de **reportes forenses / de mitigación** y análisis de casos (penal, personal injury, workers comp): análisis, cuestionarios psicológicos, gráficas, reporte de incidencias + background.
-- Bilingüe, basada en México.
-- Roles objetivo: **Legal Intake Specialist / Case Analyst** para law firms; enfoque **Personal Injury / Workers Comp / Immigration**; **forensic/mitigation report writing**; abierta al giro educativo.
+## 📝 Registro de cambios (qué se agregó / movió y cuándo)
 
-## ⚠️ Realidad de mercado (leer antes de fijar expectativas)
-Boards LATAM (verif. 08–10-ago): soporte legal LATAM (intake/legal assistant/paralegal) paga típico **$6–$10 USD/hora o $1,000–$1,600 USD/mes a tiempo completo**. Un objetivo de **$3,000+/mes es top del mercado y casi siempre full-time** → choca con "segundo trabajo part-time". Dos caminos:
-- **(A) Intake/case support part-time:** realista **~$800–$1,500/mes**.
-- **(B) Nicho forense/mitigación como contratista/freelance por proyecto:** mejores **$/hora**, **async** (encaja con horario libre/fin de semana), y es la verdadera ventaja competitiva. **Camino recomendado.**
+- **12 Ago 26** — Se **activó el carril PESOS-MX** como bucket vivo (antes "en pausa"): las vacantes de "México remoto" en pesos ya cuentan como oportunidad activa. La búsqueda diaria ahora también barre **Indeed México y LinkedIn México**. Registradas aplicaciones a **Luxoft, Plexus Tech, UST y U-Hi** (pesos). Corregido el dashboard web (mostraba contenido de Sunny).
+- **10 Ago 26** — Aplicadas: **Devblock** (USD $45–50/hr, Braintrust) y **Amaya Cloud** (USD, fractional). Altas: Bluelight (Tier 3), FPT (pesos).
+- **08 Ago 26** — Aplicada: **Interfell** (marketplace LATAM).
+- **05 Ago 26** — Aplicada: **Deloitte** (Scrum Master, en proceso). Tech Holding cerró.
+- **30 Jul 26** — **American Innovations: RECHAZADA** (era el único Tier 1 USD).
+- **28 Jul 26** — Blend360 → Tier 2. Grupo US-only y Costa Rica → descartadas. KMS → pesos.
+- **27 Jul 26** — Alta American Innovations (Tier 1). Leído CV → perfil y arquetipo.
+- **26 Jul 26** — +2 freelance USD: Revelo, Index.dev.
+
+---
+
+## 💡 Estrategia clave
+Las vacantes full-time "México remoto" / "Costa Rica remoto" casi siempre son **entidad local = moneda local** (pesos/colones; señales: prestaciones de ley, vales de despensa, fondo de ahorro). El **carril de USD real es contractor/marketplace** (Braintrust, Devsu, Blue Coding, BairesDev, Revelo, Index.dev, Turing, Toptal) + reclutadores que ofrezcan "USD/contract". Se trabajan **los dos carriles en paralelo**.
 
 ## 📊 Contadores
-- 🔎 Rastreadas: **19** · 🟢🟡🟠 Vivas: **13** · ✅ Aplicadas: **0** · 🌎 Pausa/por confirmar: **2** · 🔴 Descartadas/expiradas: **4** · 💻 Freelance: **5**
+🔎 Rastreadas: ~69 · 🟢🟡🟠 Vivas USD: 8 · 🇲🇽 México (pesos): 9 · ✅ Aplicadas: 11 (1 rechazada) · 🔴 Descartadas: ~28 · 💻 Freelance USD: 17
+
+---
+
+## 🟢 TIER 1 — USD confirmado
+**⚠️ Sin Tier 1 activo (12 Ago 26).** American Innovations (único USD confirmado) fue rechazada el 30-jul. Mejor tiro vivo: **Blend360** (Tier 2).
+
+## 🟡 TIER 2 — USD-probable / contractor
+
+| Agregado | Empresa | Rol | USD | Link | Nota |
+|---|---|---|---|---|---|
+| 28 Jul 26 | **Blend360** ⭐ | Senior Project Manager (AI/Data) | Probable | [Ver](https://jobs.smartrecruiters.com/blend360/744000138952339-senior-project-manager) | Guadalajara; "benefits vary by LATAM" + empresa gringa → leans USD. AI/Data, Copilot/Cursor, SAFe ok. Confirmar moneda. |
+| 28 Jul 26 | **Blue Coding** | Senior Technical PM | Sí (contractor) | [Board](https://jobs.lever.co/bluecoding) | Remoto LATAM USD. Hueco: qué tan técnico. |
+| 27 Jul 26 | **Devsu** | Senior Technical PM | Sí (contractor) | [Ver](https://apply.workable.com/devsu/j/9BA97F5A36/) | México, contractor USD. Confirmar nivel técnico. |
+
+## 🟠 TIER 3 — Con reservas
+
+| Agregado | Empresa | Rol | USD | Link | Reserva |
+|---|---|---|---|---|---|
+| 10 Ago 26 | **Bluelight Consulting** | Project Manager (Remote LATAM) | Por confirmar | [Lever](https://jobs.lever.co/bluelightconsulting/3d3f2be2-624a-4e85-b8cb-de175ca14327) | Base Heredia CR → confirmar MX + moneda. PM tradicional. |
+| 03 Ago 26 | **Kruger NearShore** | Project Manager — LATAM | Por confirmar | [Jobgether](https://jobgether.com/offer/6a61528f1b23f4f87b3183ff-project-manager---latam) | LATAM abierto, staffing. PM no SM; moneda sin declarar. |
+| 27 Jul 26 | **Modus Create** | Technical PM (M365/Copilot) | Probable | [Ver](https://moduscreate.com/careers/7796458003?gh_jid=7796458003) | SAFe + Copilot; tus certs de IA suman. |
+| 27 Jul 26 | **INDI Staffing** | Scrum Master (Remote LATAM) | Probable | [Ver](https://www.linkedin.com/jobs/view/scrum-master-remote-work-at-indi-staffing-services-4404598641) | Plataforma de BairesDev; ojo con duplicar. |
+| 27 Jul 26 | **BairesDev** | Agile Coach / SM + Senior Security SM | Sí | [Ver](https://jobgether.com/offer/687e26e0fd9af3ce407e0e22-scrum-master---remote-work-ref-147908) | USD contractor. La "Senior Security SM" = hueco de dominio Security. |
+
+## 🇲🇽 MÉXICO (pesos) — carril vivo
+
+| Agregado | Empresa | Rol | Pago | Link | Nota |
+|---|---|---|---|---|---|
+| 27 Jul 26 | **KMS Technology** | Delivery Manager | Pesos | [Ver](https://jobs.smartrecruiters.com/kmstechnology1/744000139125609-delivery-manager) | ⭐ Mejor paquete en pesos: 10+ años, bono ~10%. |
+| 12 Ago 26 | **EPAM Systems** | Scrum Master / Senior / Lead RTE | Pesos-prob. | (LinkedIn MX) | 3 vacantes SM en México remoto. |
+| 12 Ago 26 | **Publicis Sapient** | Senior Agile Project Manager | Pesos-prob. | (LinkedIn MX) | México remoto, ágil. |
+| 11 Ago 26 | **Doctoralia México** | Project Manager | Pesos-prob. | (Indeed) | Plataforma salud, entidad MX. |
+| 10 Ago 26 | **FPT Latin America** | Scrum Master | Pesos-prob. | [LinkedIn](https://mx.linkedin.com/jobs/view/scrum-master-at-fpt-latin-america-4301585594) | Entidad MX. Si fuera USD, sube a Tier. |
+| 09 Ago 26 | **ARKON DATA** | Project Manager MD | Pesos ($111k MXN/mes) | (Indeed) | Empresa mexicana data. |
+| 07 Ago 26 | **Bluetab (IBM)** | Scrum Master | Pesos-prob. | (Indeed) | Entidad IBM México. |
+| 29 Jul 26 | **mobiik** | Scrum Master Gobernanza | Pesos | [Ver](https://www.remoterocketship.com/country/latin-america/jobs/scrum-master/) | Empresa mexicana. |
+| ant. | **Genesys / CITI** | SM / Agile Coach | Confirmar | (LinkedIn) | México remoto. |
+
+---
+
+## ✅ APLICADAS — con estado
+
+| Agregado | Empresa | Rol | Moneda | Estado |
+|---|---|---|---|---|
+| 12 Ago 26 | **U-Hi** | Scrum Master (México remoto) | Pesos ($80–85k MXN/mes) | Aplicada |
+| 12 Ago 26 | **Luxoft** | Scrum Master (México remoto) | Pesos-prob. | Aplicada |
+| 12 Ago 26 | **Plexus Tech** | Scrum Master / Agile Coach | Pesos-prob. | Aplicada |
+| 10 Ago 26 | **Devblock** (Braintrust) | Project Manager (Remote LATAM) | USD $45–50/hr | Aplicada — sin revisar |
+| 10 Ago 26 | **Amaya Cloud** | Fractional Scrum Master | USD (part-time) | Aplicada — sin respuesta |
+| 08 Ago 26 | **Interfell** | Scrum Master (Remote) | Por confirmar | Aplicada — sin respuesta |
+| 05 Ago 26 | **Deloitte** | Scrum Master | Por confirmar | En proceso ("viewed") |
+| 24 Jul 26 | **UST** | Scrum Master I — MX | Pesos | Perfil registrado |
+| 24 Jul 26 | **BairesDev** | Scrum Master | USD | Correo enviado |
+| 24 Jul 26 | **HCLTech** | Scrum Master | Pesos-prob. | Aplicado |
+| 28 Jul 26 | **American Innovations** | Agile Delivery Leader / SM | USD | 🔴 RECHAZADA (30-jul) |
+
+---
+
+## 💻 FREELANCE / POR HORA — USD
+Empieza por: **Outlier** ([registro](https://app.outlier.ai/)) · **Upwork** ([registro](https://www.upwork.com/signup/)) · **Codementor** ([registro](https://www.codementor.io/m/signup)) · **Revelo** ([registro](https://app.careers.revelo.com/)) · **Index.dev** ([registro](https://workspace.index.dev/register)) · Mercor, Contra, Lemon.io, Braintrust, Toptal, Turing.
+
+---
+
+## 🔴 DESCARTADAS (resumen, ~28)
+- **US-only** (autorización US / clearance / "United States Remote"): GovCIO, Ad Hoc, Nuvitek, Haystack, UST-AI, Provation, First Citizens Bank (AZ/NC), Inadev, Avum, NuAxis, Optum, LTM…
+- **País-locked** (Brasil/Colombia/CR): Dev.Pro, Minsait, GFT, Ubiminds, Rimutee, Software Mind, 3Pillar (CR/colones), Tekton (Colombia)…
+- **Cerradas:** Nearsure, Tech Holding, Agentic Dream, Infinite Lambda, FullStack Labs.
+- **Dominio/ubicación:** Devsu-Fintech (Quito/móvil), LatamCent (iOS/Android), Salesforce (Colombia+viajes), 10Pearls/GSB/rocket code (presencial), ALTEN (junior/pesos).
 
 ## 🚩 Filtros rápidos
-- **US-only** ("must reside in the U.S.", "US work authorization") → descartar.
-- **País-locked** (Colombia/Brasil/Argentina o idioma/residencia local, sin abrir México) → descartar/pausa.
+- **US-only** ("U.S. Citizen", "Clearance", "Form I-9", "United States (Remote)", "Remote-US") → descartar.
+- **Moneda local** (prestaciones de ley, vales de despensa, fondo de ahorro, aguinaldo) → pesos → carril México.
+- **País-locked** (Brasil/Colombia/CR con residencia/idioma) → descartar.
 - **Link muerto** (404/410, "no longer accepting", 30+ días) → no contar.
-- **Horario** (full-time fijo US que choca con su empleo) → Tier 2 (hueco horario) o pausa; nunca Tier 1.
 
----
-
-## 🎯 VIVAS POR REVISAR
-
-### 🟢 TIER 1 — Encaje fuerte (USD + México + part-time/async + rol legal)
-⚠️ **Sin Tier 1 confirmado aún (10-ago).** Todo lo vivo es full-time. Tier 1 exige un law firm que diga "remote – Mexico" **+ part-time/contract/async**.
-
-### 🟡 TIER 2 — Buen tiro con 1 hueco por confirmar (casi todos: full-time → horario)
-
-| Agregado | Fuente | Rol | USD | Link | Nota / hueco |
-|---|---|---|---|---|---|
-| 10-ago | **Laborde Earles Injury Lawyers** 🆕 | Legal Accident Report Specialist (México, remoto) | Pay N/D | [Ver](https://labordeearles.recruitee.com/o/legal-assistant-accident-report-specialist-remote-from-argentina-nicaragua-colombia-mexico-el-salvador-honduras-philippines) | ⭐ Mejor encaje de giro: firma **Personal Injury**, arma **accident reports** + investigación (Litify). Roza su perfil de reportes. México ✅, link vivo. Huecos: **full-time** + pay N/D. |
-| 10-ago | **Rob Levine Legal Solutions** 🆕 | Criminal Defense Virtual Paralegal (México, remoto) | Pay N/D | [Ver](https://www.remoterocketship.com/company/unitedfirm/jobs/criminal-defense-virtual-paralegal-mexico-remote/) | Giro **defensa criminal** (nicho penal) + México ✅. Subpoenas, discovery, historial criminal. Huecos: full-time + pay N/D. Pide 1 año exp. defensa criminal + bilingüe. |
-| 09-ago | **HireHawk** | Legal Assistant — Personal Injury (México, remoto) | $1,000–1,400/mes | [Ver](https://apply.workable.com/hirehawk/j/40473BE4CA) | Giro **PI** + México ✅ + link vivo. Hueco: **full-time** (solo sirve si aceptan part-time/flex). Pide 2 años exp. PI + español. |
-| 09-ago | **Moaddel Law Firm** | Misdemeanor Legal Assistant (México, remoto) | $8/hr | [Ver](https://recruiting.paylocity.com/Recruiting/Jobs/Details/4343857) | México ✅ + **defensa criminal** (cerca de su nicho). Hueco: full-time. Pide exp. defensa criminal + Clio. |
-| 09-ago | **Blessinger Legal PLLC** | Legal Assistant — Immigration (México, remoto) | $8–10/hr | [Ver](https://apply.workable.com/blessinger-legal/j/A656F31086) | Giro immigration + México ✅. Hueco: **full-time M–V 8:30–17:30 EST** (horario fijo → choca). |
-| 08-ago | **NIR-YU** | Legal Intake Specialist (Latin America, remoto) | Sí | [Ver](https://www.remoterocketship.com/company/nir-yu/jobs/legal-intake-specialist-latin-america-remote/) | "Latin America" (prob. México ✅) + español. Hueco: full-time → confirmar part-time. Intake, no forense. |
-| 08-ago | **Job Duck** | Legal Intake / Legal Assistant (México, remoto) | ~$1.1–1.2k/mes | [Ver](https://www.remoterocketship.com/company/jobduck/jobs/legal-intake-specialist-mexico-remote/) | México ✅ (vivo). Hueco: **full-time, Eastern Time**, Clio. Pago bajo pero estable. |
-| 08-ago | **Political Asylum Lawyers** | Legal Assistant — Immigration | ~$1.4k/mes | [Ver](https://www.remoterocketship.com/company/political-asylum-lawyers/jobs/legal-assistant-argentina-remote/) | Giro immigration ✅. Hueco: listado **Argentina** → confirmar México. Full-time. |
-
-### 🟠 TIER 3 — Vía staffing/BPO (un registro te expone a muchos despachos)
-
-| Agregado | Plataforma | Qué es | Link | Nota |
-|---|---|---|---|---|
-| 10-ago | **Rob Levine Legal Solutions** 🆕 | Firma US con **5 roles México** recurrentes (USCIS/EOIR, waiver, deferred action, criminal defense) | [Ver](https://www.remoterocketship.com/company/unitedfirm/) | Canal recurrente México. Mejor encaje: Criminal Defense (Tier 2). Immigration = opción secundaria. Full-time. |
-| 08-ago | **Virtual Latinos** | Marketplace LATAM→despachos US (legal VA) | [Aplicar](https://join.virtuallatinos.com/) | Canal grande de legal VA desde LATAM (incluye México). Registra perfil; pide part-time. |
-| 08-ago | **Legal Soft** | Staffing legal para law firms US | [Ver](https://www.legalsoft.com/intake-specialist-remote) | Intake remoto. Confirmar México + esquema. |
-| 08-ago | **WoW Remote Teams** | Staffing legal LATAM | [Ver](https://wowremoteteams.com/roles/legal-intake-specialist/) | Legal intake/VA desde LATAM. |
-| 08-ago | **Remote Latinos** | Staffing legal LATAM | [Ver](https://www.remotelatinos.com/hire-remote-talent/hire-remote-legal-assistant) | Legal assistants LATAM. |
-| 08-ago | **Abogados NOW** | Red de despachos (intake bilingüe) | [Ver](https://www.abogadosnow.com/legal-intake-specialist/) | Intake bilingüe español/inglés para PI. |
-
----
-
-## 💻 FREELANCE / CONTRATISTA — nicho forense/mitigación (mejor $/hora, async · recomendado)
-
-| Agregado | Plataforma | Para qué | Link |
-|---|---|---|---|
-| 08-ago | **Upwork** ⭐ | Mitigation reports, legal research, case analysis, psych report writing | [Registro](https://www.upwork.com/signup/) |
-| 08-ago | **Contra** | Proyectos legales/redacción, 0% comisión | [Registro](https://contra.com/) |
-| 08-ago | **Mercor** | Matching a proyectos (legal/analysis) | [Registro](https://www.mercor.com/) |
-| 08-ago | **Outlier / labs IA** | Revisión/anotación legal para IA, async | [Registro](https://app.outlier.ai/) |
-| 08-ago | **LinkedIn (directo)** | "Mitigation Specialist", "Forensic report writer", "Sentencing mitigation", "Life history investigator" | (búsqueda) |
-
----
-
-## ✅ APLICADAS — CON ESTADO
-_(vacío — pendiente pasar los links de lo aplicado para trackear estado y confirmar elegibilidad México)_
-
-## 🌎 EN PAUSA / POR CONFIRMAR PAÍS
-
-| Agregado | Empresa | Rol | Motivo |
-|---|---|---|---|
-| 09-ago | **Hire Hangar Global** | Legal Intake Coordinator (contract) | Único **part-time/contract** visto, pero slug "South Africa" → país por confirmar. $600–1,200/mes. Si abre México → sube a Tier 1. |
-| 09-ago | **Ovation Law Firm** | Legal Intake — Lemon Law (México) | Giro lemon law fuera de su core + pay N/D + full-time. México ✅ pero encaje bajo. |
-
-## 🔴 DESCARTADAS / EXPIRADAS
-
-| Empresa | Rol | Motivo | Fecha |
-|---|---|---|---|
-| Back Office Betties | Part-Time Virtual Legal Intake (call center) | **US-only** (AZ/NV/PA/TX/UT). Raro part-time real ($17–19/hr, 25 h/sem) pero geo-locked a EU. | 10-ago |
-| New Comienzos | Bilingual Immigration Intake / Legal Assistant | Link 410 (expirado). Monitorear reapertura. | 09-ago |
-| Moaddel Law Firm | Legal Intake Specialist – LATAM/Mexico | Link 404. PERO reabrió roles vivos México (misdemeanor → Tier 2). | 08-ago |
-| HireHawk | Business Immigration Paralegal (LATAM/Mexico City) | Link 410. PERO reabrió el rol PI México (→ Tier 2). | 08-ago |
-
----
-
-_Tablero acumulativo: nada se borra. US-only/país-locked/expirado → Descartadas o Pausa con motivo. El objetivo es USD compatible con horario de segundo trabajo; prioriza part-time/async y el nicho forense._
+_Tablero acumulativo: nada se borra. Contenido ofuscado. La fecha de "Última actualización" refleja la última actualización real._
