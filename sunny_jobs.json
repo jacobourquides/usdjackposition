@@ -1,113 +1,339 @@
 {
-  "updated": "2026-08-08",
-  "market_note": "Soporte legal LATAM (intake/legal assistant/paralegal) paga típico $1,000–$1,600 USD/mes a tiempo completo. $3,000+/mes es tope de mercado y casi siempre full-time → choca con un segundo trabajo part-time. Mejor apuesta de $/hora: el nicho forense/mitigación como contratista/freelance por proyecto (async).",
+  "updated": "2026-08-20",
+  "market_note": "Legal LATAM ~$1–1.6k/mes full-time. $3k casi siempre full-time. Estrategia realista: (A) part-time ~$800–1.5k o (B) freelance forense async (mejor $/hr). Sin Tier 1 confirmado; cazando. Contadores: Vivas 19 (T2: 12, T3: 7) · Aplicadas 0 · Pausa 2 · Descartadas 9.",
   "jobs": [
+    {
+      "id": "dalal-mehta-removal",
+      "company": "Dalal & Mehta LLC",
+      "role": "Removal Defense Paralegal (México, remoto)",
+      "tier": "2",
+      "usd": "sí",
+      "pay": "$700–1,000/mes",
+      "link": "https://www.remoterocketship.com/company/njimmigrationhelp/jobs/removal-defense-paralegal-mexico-remote/",
+      "note": "✅ VIVO · México ✅ · pay visible · giro immigration/removal. Hueco: full-time + pago bajo + exp. removal defense."
+    },
+    {
+      "id": "pearl-intake",
+      "company": "Pearl (Pearl Talent)",
+      "role": "Legal Intake Specialist (apelaciones, LATAM/México)",
+      "tier": "2",
+      "usd": "sí",
+      "pay": "$1,500–2,000/mes",
+      "link": "https://apply.workable.com/pearltalent/j/3F783807A1/",
+      "note": "✅ VIVO · México ✅ · pay visible · giro apelaciones. Hueco: full-time 8am–5pm EST."
+    },
+    {
+      "id": "20four7va-11320",
+      "company": "20four7VA",
+      "role": "Legal Administrative VA (CPT-11320, part-time ~20h/sem)",
+      "tier": "2",
+      "usd": "por-confirmar",
+      "pay": "N/D",
+      "link": "https://20four7va.breezy.hr/p/2acfd2e68623-cpt-11320-legal-administrative-virtual-assistant",
+      "note": "⭐ PART-TIME real · worldwide → México ✅ · abierto. Hueco: giro real estate + pay N/D + horario ~10am–2pm EST."
+    },
+    {
+      "id": "20four7va-11020",
+      "company": "20four7VA",
+      "role": "Legal Administrative VA (CPT-11020, part-time ~20h/sem)",
+      "tier": "2",
+      "usd": "por-confirmar",
+      "pay": "N/D",
+      "link": "https://20four7va.breezy.hr/p/1760fa9a4c65-cpt-11020-legal-administrative-virtual-assistant",
+      "note": "⭐ PART-TIME real · worldwide → México ✅ · gemelo del 11320. Mismo hueco."
+    },
+    {
+      "id": "laborde-earles-pi",
+      "company": "Laborde Earles Injury Lawyers",
+      "role": "Legal Accident Report Specialist (México, remoto)",
+      "tier": "2",
+      "usd": "por-confirmar",
+      "pay": "N/D",
+      "link": "https://labordeearles.recruitee.com/o/legal-assistant-accident-report-specialist-remote-from-argentina-nicaragua-colombia-mexico-el-salvador-honduras-philippines",
+      "note": "⭐ Mejor encaje giro: Personal Injury · accident reports. Roza nicho forense. Hueco: full-time + pay N/D."
+    },
+    {
+      "id": "rob-levine-criminal",
+      "company": "Rob Levine Legal Solutions",
+      "role": "Criminal Defense Virtual Paralegal (México, remoto)",
+      "tier": "2",
+      "usd": "por-confirmar",
+      "pay": "N/D",
+      "link": "https://www.remoterocketship.com/company/unitedfirm/jobs/criminal-defense-virtual-paralegal-mexico-remote/",
+      "note": "✅ Giro defensa criminal · México ✅. Hueco: full-time + pay N/D + pide 1 año exp. removal defense."
+    },
+    {
+      "id": "hirehawk-pi",
+      "company": "HireHawk",
+      "role": "Legal Assistant — Personal Injury (México, remoto)",
+      "tier": "2",
+      "usd": "sí",
+      "pay": "$1,000–1,400/mes",
+      "link": "https://apply.workable.com/hirehawk/j/40473BE4CA",
+      "note": "✅ Giro PI · México ✅ · pay visible. Hueco: full-time. Pide 2 años exp. PI + español."
+    },
+    {
+      "id": "moaddel-misdemeanor",
+      "company": "Moaddel Law Firm",
+      "role": "Misdemeanor Legal Assistant (México, remoto)",
+      "tier": "2",
+      "usd": "sí",
+      "pay": "$8/hr",
+      "link": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4343857",
+      "note": "✅ México · giro defensa criminal. Hueco: full-time + Clio."
+    },
+    {
+      "id": "blessinger-immigration",
+      "company": "Blessinger Legal PLLC",
+      "role": "Legal Assistant — Immigration (México, remoto)",
+      "tier": "2",
+      "usd": "sí",
+      "pay": "$8–10/hr",
+      "link": "https://apply.workable.com/blessinger-legal/j/A656F31086",
+      "note": "✅ Giro immigration · México. Hueco: full-time M–V 8:30–17:30 EST (horario fijo = choca fuerte)."
+    },
     {
       "id": "nir-yu-intake",
       "company": "NIR-YU",
       "role": "Legal Intake Specialist (Latin America, remoto)",
       "tier": "2",
-      "usd": "Sí",
-      "pay": "",
+      "usd": "sí",
+      "pay": "N/D",
       "link": "https://www.remoterocketship.com/company/nir-yu/jobs/legal-intake-specialist-latin-america-remote/",
-      "note": "\"Latin America\" abierto (prob. incluye México) + requiere español. Hueco: es full-time → confirmar turno part-time. Intake, no forense."
+      "note": "Latin America (México probable ✅) · español. Hueco: full-time. Intake, no forense."
     },
     {
-      "id": "job-duck-intake",
+      "id": "jobduck-intake",
       "company": "Job Duck",
-      "role": "Bilingual Legal Intake / Legal Assistant (varios giros)",
+      "role": "Legal Intake / Legal Assistant (México, remoto)",
       "tier": "2",
-      "usd": "Sí",
+      "usd": "sí",
       "pay": "~$1.1–1.2k/mes",
-      "link": "https://www.remoterocketship.com/company/jobduck/jobs/",
-      "note": "Contrata LATAM (listados Honduras/El Salvador/Brasil). Hueco: confirmar que abre México + full-time. Pago bajo pero estable."
+      "link": "https://www.remoterocketship.com/company/jobduck/jobs/legal-intake-specialist-mexico-remote/",
+      "note": "✅ México confirmado · pay visible. Hueco: full-time, Eastern Time. Pago bajo pero estable."
     },
     {
-      "id": "political-asylum-immig",
+      "id": "political-asylum-immigration",
       "company": "Political Asylum Lawyers",
       "role": "Legal Assistant — Immigration",
       "tier": "2",
-      "usd": "Sí",
+      "usd": "por-confirmar",
       "pay": "~$1.4k/mes",
       "link": "https://www.remoterocketship.com/company/political-asylum-lawyers/jobs/legal-assistant-argentina-remote/",
-      "note": "Giro immigration (uno de tus targets). Hueco: listado Argentina → confirmar elegibilidad México. Full-time."
+      "note": "Giro immigration ✅. Ubicación listada Argentina → confirmar elegibilidad México. Full-time."
     },
     {
-      "id": "virtual-latinos",
+      "id": "vwizards-staffing",
+      "company": "Virtual Wizards",
+      "role": "Staffing legal LATAM → despachos US (legal intake)",
+      "tier": "3",
+      "usd": "probable",
+      "pay": "N/D",
+      "link": "https://jobs.virtualwizards.io/",
+      "note": "Full-time only · Latin America sin México explícito. Registrar perfil + preguntar part-time + elegibilidad MX."
+    },
+    {
+      "id": "rob-levine-staffing",
+      "company": "Rob Levine Legal Solutions",
+      "role": "Firma US con 5 roles México recurrentes (USCIS/EOIR, criminal defense)",
+      "tier": "3",
+      "usd": "probable",
+      "pay": "N/D",
+      "link": "https://www.remoterocketship.com/company/unitedfirm/",
+      "note": "Canal recurrente México. Mejor encaje: Criminal Defense (T2). Todos full-time."
+    },
+    {
+      "id": "vlatinos-staffing",
       "company": "Virtual Latinos",
-      "role": "Legal VA (marketplace LATAM→despachos US)",
+      "role": "Marketplace LATAM → despachos US (legal VA)",
       "tier": "3",
-      "usd": "Sí",
-      "pay": "",
+      "usd": "probable",
+      "pay": "N/D",
       "link": "https://join.virtuallatinos.com/",
-      "note": "Uno de los canales más grandes de legal VA desde LATAM. Registra perfil; ellos matchean. Incluye México. Pide esquema part-time."
+      "note": "Canal grande de legal VA desde LATAM. Registra perfil · pedir esquema part-time."
     },
     {
-      "id": "legal-soft",
+      "id": "legal-soft-staffing",
       "company": "Legal Soft",
-      "role": "Intake Specialist (staffing legal US)",
+      "role": "Staffing legal para law firms US",
       "tier": "3",
-      "usd": "Sí",
-      "pay": "",
+      "usd": "probable",
+      "pay": "N/D",
       "link": "https://www.legalsoft.com/intake-specialist-remote",
       "note": "Intake specialist remoto. Confirmar México + esquema."
     },
     {
-      "id": "wow-remote-teams",
+      "id": "wow-remote-staffing",
       "company": "WoW Remote Teams",
-      "role": "Legal Intake / Legal VA (staffing LATAM)",
+      "role": "Staffing legal LATAM",
       "tier": "3",
-      "usd": "Sí",
-      "pay": "",
+      "usd": "probable",
+      "pay": "N/D",
       "link": "https://wowremoteteams.com/roles/legal-intake-specialist/",
-      "note": "Legal intake / legal VA desde LATAM. Registrar perfil."
+      "note": "Legal intake / legal VA desde LATAM. Registra perfil."
     },
     {
-      "id": "remote-latinos",
+      "id": "remote-latinos-staffing",
       "company": "Remote Latinos",
-      "role": "Legal Assistant (staffing LATAM)",
+      "role": "Staffing legal LATAM",
       "tier": "3",
-      "usd": "Sí",
-      "pay": "",
+      "usd": "probable",
+      "pay": "N/D",
       "link": "https://www.remotelatinos.com/hire-remote-talent/hire-remote-legal-assistant",
       "note": "Contrata legal assistants LATAM."
     },
     {
       "id": "abogados-now",
       "company": "Abogados NOW",
-      "role": "Legal Intake (red de despachos, bilingüe)",
+      "role": "Red de despachos (intake bilingüe)",
       "tier": "3",
-      "usd": "Sí",
-      "pay": "",
+      "usd": "probable",
+      "pay": "N/D",
       "link": "https://www.abogadosnow.com/legal-intake-specialist/",
-      "note": "Intake bilingüe español/inglés para Personal Injury."
+      "note": "Intake bilingüe ES/EN para Personal Injury."
+    },
+    {
+      "id": "hire-hangar-pausa",
+      "company": "Hire Hangar Global",
+      "role": "Legal Intake Coordinator (contract, part-time/contract ideal)",
+      "tier": "pausa",
+      "usd": "probable",
+      "pay": "$600–1,200/mes",
+      "link": "https://www.remoterocketship.com/company/hire-hangar-global/jobs/",
+      "note": "Única opción part-time/contract vista. Ubicación Sudáfrica (probable país-locked ZA). Reverificado: sigue ZA. Si abre México → sube."
+    },
+    {
+      "id": "ovation-lemon-law",
+      "company": "Ovation Law Firm",
+      "role": "Legal Intake — Lemon Law (México)",
+      "tier": "pausa",
+      "usd": "por-confirmar",
+      "pay": "N/D",
+      "link": "",
+      "note": "México ✅ pero encaje bajo (giro lemon law fuera de core) + pay N/D + full-time. Pausa salvo que amplíe pay/esquema."
+    },
+    {
+      "id": "urrly-descartada",
+      "company": "Urrly",
+      "role": "After-Hours & Weekend Intake Coordinator (noches+fines, ideal)",
+      "tier": "descartada",
+      "usd": "sí",
+      "pay": "$7–11/hr",
+      "link": "https://www.remoterocketship.com/company/",
+      "note": "CERRADA + 404. Sigue full-time 40h/sem. ⭐ Template horario ideal. Monitorear reapertura."
+    },
+    {
+      "id": "hirehawk-case-manager",
+      "company": "HireHawk",
+      "role": "Case Manager – Personal Injury (LATAM/México)",
+      "tier": "descartada",
+      "usd": "sí",
+      "pay": "$1–1.4k/mes",
+      "link": "https://apply.workable.com/hirehawk/",
+      "note": "404 en talent.com, Himalayas, RR (expirado). Full-time. Distinto del PI Legal Assistant vivo."
+    },
+    {
+      "id": "corebridge-weekend",
+      "company": "CoreBridge Solutions",
+      "role": "Bilingual Legal Intake Specialist — Weekend Shift (part-time fin de semana ideal)",
+      "tier": "descartada",
+      "usd": "por-confirmar",
+      "pay": "N/D",
+      "link": "https://remotive.io/remote-jobs/legal",
+      "note": "PAÍS-LOCKED Colombia + 410. ⭐ Template horario ideal pero no elegible México. Monitorear versión worldwide/México."
+    },
+    {
+      "id": "varghese-summersett",
+      "company": "Varghese Summersett",
+      "role": "Bilingual Legal Intake Specialist (part-time 24h/sem, tardes+fines, $8–9/hr, ideal)",
+      "tier": "descartada",
+      "usd": "sí",
+      "pay": "$8–9/hr",
+      "link": "https://www.getonboard.com/companies/varghese-summersett/",
+      "note": "CERRADA — 'no longer accepting'. ⭐ El mejor template de encaje visto. Outreach directo + monitorear reapertura."
+    },
+    {
+      "id": "20four7va-10734",
+      "company": "20four7VA",
+      "role": "Legal Administrative & Client Intake VA — Bilingual (CPT-10734)",
+      "tier": "descartada",
+      "usd": "por-confirmar",
+      "pay": "N/D",
+      "link": "https://20four7va.breezy.hr/",
+      "note": "CERRADA — 'no longer accepting'. PERO reabrió CPT-11020/11320 (T2). Monitorear reapertura."
+    },
+    {
+      "id": "back-office-betties",
+      "company": "Back Office Betties",
+      "role": "Part-Time Virtual Legal Intake Specialist (call center)",
+      "tier": "descartada",
+      "usd": "sí",
+      "pay": "$17–19/hr",
+      "link": "https://www.backoffice-betties.com/",
+      "note": "US-only (AZ/NV/PA/TX/UT). Raro part-time real (25 h/sem) pero geo-locked a EU."
+    },
+    {
+      "id": "new-comienzos",
+      "company": "New Comienzos",
+      "role": "Bilingual Immigration Intake / Legal Assistant",
+      "tier": "descartada",
+      "usd": "probable",
+      "pay": "N/D",
+      "link": "https://remotive.io/remote-jobs/legal",
+      "note": "Link 410 (expirado). Giro immigration. Monitorear reapertura."
     },
     {
       "id": "moaddel-intake",
       "company": "Moaddel Law Firm",
-      "role": "Legal Intake Specialist – LATAM/Mexico",
+      "role": "Legal Intake Specialist – LATAM/Mexico (otro rol)",
       "tier": "descartada",
-      "usd": "Sí",
-      "pay": "",
-      "link": "https://www.remoterocketship.com/company/moaddel-law-firm/jobs/legal-intake-specialist-latam-mexico-remote/",
-      "note": "Link 404 (expirado) al verificar (08-ago). Monitorear si reabre."
+      "usd": "probable",
+      "pay": "N/D",
+      "link": "https://recruiting.paylocity.com/Recruiting/Jobs/",
+      "note": "Link 404 (ese posteo). PERO Moaddel reabrió otros roles vivos (misdemeanor T2)."
     },
     {
-      "id": "hirehawk-immig",
+      "id": "hirehawk-immigration",
       "company": "HireHawk",
-      "role": "Business Immigration Paralegal (Remote LATAM/Mexico City)",
+      "role": "Business Immigration Paralegal (LATAM/Mexico City)",
       "tier": "descartada",
-      "usd": "Sí",
-      "pay": "",
-      "link": "https://jobs.workable.com/",
-      "note": "Link 410 (expirado) al verificar (08-ago). Buen encaje immigration + México → monitorear reapertura."
+      "usd": "sí",
+      "pay": "$1–1.4k/mes",
+      "link": "https://apply.workable.com/hirehawk/",
+      "note": "Link 410 (expirado). PERO HireHawk reabrió PI México (T2)."
     }
   ],
   "freelance": [
-    { "platform": "Upwork", "para": "Mitigation reports, legal research, case analysis, psych report writing", "link": "https://www.upwork.com/signup/", "star": true },
-    { "platform": "Contra", "para": "Proyectos legales/redacción, 0% comisión", "link": "https://contra.com/", "star": false },
-    { "platform": "Mercor", "para": "Matching a proyectos (legal/analysis)", "link": "https://www.mercor.com/", "star": false },
-    { "platform": "Outlier / labs IA", "para": "Revisión/anotación legal para IA, async", "link": "https://app.outlier.ai/", "star": false },
-    { "platform": "LinkedIn (búsqueda directa)", "para": "\"Mitigation Specialist\", \"Forensic report writer\", \"Sentencing mitigation\", \"Life history investigator\"", "link": "https://www.linkedin.com/jobs/", "star": false }
-  ]
+    {
+      "platform": "Upwork",
+      "para": "Legal research, mitigation reports, case analysis, psych report writing",
+      "link": "https://www.upwork.com/signup/",
+      "star": true
+    },
+    {
+      "platform": "Contra",
+      "para": "Proyectos legales/redacción, 0% comisión",
+      "link": "https://contra.com/",
+      "star": false
+    },
+    {
+      "platform": "Mercor",
+      "para": "Matching a proyectos (incl. legal/analysis)",
+      "link": "https://www.mercor.com/",
+      "star": false
+    },
+    {
+      "platform": "Outlier",
+      "para": "Revisión/anotación legal para IA, pagan por hora, async",
+      "link": "https://app.outlier.ai/",
+      "star": false
+    },
+    {
+      "platform": "LinkedIn (outreach directo)",
+      "para": "Mitigation Specialist, Forensic report writer, Sentencing mitigation",
+      "link": "https://www.linkedin.com/jobs/",
+      "star": true
+    }
+  ],
+  "docencia": []
 }
