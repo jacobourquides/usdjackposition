@@ -1,138 +1,121 @@
-# 📋 Dashboard — Vacantes Remotas USD
+# 💼 Dashboard — Vacantes Scrum Master / PM Remoto (USD + México)
 
-**Objetivo: trabajo remoto pagado en USD desde México (sin visa). Dos frentes: (1) Scrum Master / Agile, (2) trabajo por hora / freelance.**
+**Objetivo:** trabajo remoto de Scrum Master / Project Manager. **Carril A (prioridad): USD** vía contractor/marketplace. **Carril B (vivo): buen remoto en pesos desde México.**
 
-_Última actualización: 08-ago-2026. **Sin altas USD nuevas hoy.** Revisados marketplaces/contractor USD (Braintrust, Devsu, Blue Coding), nearshore y boards LATAM: todo lo nuevo ya está en un bucket o cae en descartes conocidos (Papigen/Braintrust True Ventures = cerradas; Haystack $141–198k = US-only; Bluetab/Grupo Salinas/Capgemini/Softtek = MX pesos). Sin respuestas nuevas de recruiters. **Mejor tiro vivo: Blend360 (Guadalajara, USD-probable).**_
+**Última actualización: 06 Oct 26**
+
+---
+
+## 📝 Registro de cambios (qué se agregó / movió y cuándo)
+
+- **06 Oct 26** — **Alta Tier 2: Venon Solutions** (SM, Independent Contractor, **USD confirmado**, "only available for Latin America residents" → México elegible, full-time EST). Hueco único: pide "Scrum Master Certification" genérica (confirmar que SAFe cuenta). Cierre: **In All Media** (Senior SM LATAM) = cerrada. Plataforma nueva: **South / HireInSouth** (agencia LATAM→US, USD $2–4.5k/mes).
+- **04 Oct 26** — **Alta Tier 2: Nimble Gravity** (PM/SM AI Delivery, board oficial "LATAM (Remote)", USD-probable, arquetipo AI/Data).
+- **03 Oct 26** — **Alta Tier 3: Cobalto Talent** (PM Agile Delivery, México remoto, moneda por confirmar).
+- **24 Sep 26** — **Alta Tier 3: Scalepex** (Sr. Tech PM, "Remote ONLY MEXICO", contract, moneda por confirmar).
+- **09 Sep 26** — **Alta pesos-MX confirmada: Rapido Solutions Group** (SM vía EOR, México remoto, pesos).
+- **28 Ago 26** — **Tech Holding REABRIÓ** → Tier 2 (PM/SM "Hiring Remotely in México", contract, USD-probable). +pesos: Team Venti, Detecno.
+- **24 Ago 26** — +pesos-MX: Grupo Kabat (SAFe), SuperApp. El carril pesos-MX es oficialmente un bucket vivo paralelo.
+- **14 Ago 26** — **Braintrust = Approved Talent + banco configurado** (carril USD listo para cobrar).
+- **13 Ago 26** — Tier 2 vaciado: Blend360, Blue Coding, Devsu → Descartadas. Alta Emma/Torre.ai (Tier 3).
+- **12 Ago 26** — Se activó el carril PESOS-MX. Aplicadas Luxoft, Plexus Tech, UST, U-Hi.
+- **30 Jul 26** — **American Innovations: RECHAZADA** (era el único Tier 1 USD).
+- **27–28 Jul 26** — Alta American Innovations (Tier 1). Leído CV → perfil y arquetipo. +freelance: Revelo, Index.dev.
+
+---
 
 ## 💡 Estrategia clave
-Las vacantes full-time "Mexico – Remote" / "Costa Rica – Remote" casi siempre son **entidad local = moneda local** (pesos/colones, prestaciones de ley, vales de despensa). El **carril de USD real es contractor/marketplace**: Braintrust, Devsu, Blue Coding, BairesDev, Revelo, Index.dev, freelance. Pista: "benefits vary by LATAM location" + empresa gringa (sin prestaciones de ley) → suele ser USD/regional. "B2B Contractor" en el JD = carril USD (verificar que siga abierto y que no sea solo "South America"/Argentina).
+Las vacantes full-time "México remoto" / "Costa Rica remoto" casi siempre son **entidad local = moneda local** (pesos/colones; señales: prestaciones de ley, vales de despensa, fondo de ahorro). El **carril de USD real es contractor/marketplace** (Braintrust, Devsu, Blue Coding, BairesDev, Revelo, Index.dev, Turing, Toptal) + reclutadores que ofrezcan "USD/contract". **El carril PESOS-MX es un bucket vivo paralelo**, no una pausa. Se trabajan los dos carriles.
 
-## 🧑 Perfil (genérico)
-- ~12 años en delivery/PM/liderazgo (PM SaaS + plataforma de pagos 2012–2020; Scrum Master 2021–2026, incl. equipo de 35+ contribuidores). Califica para roles "10+ años".
-- Certs: SAFe Scrum Master, CPMAI–Managing AI (PMI), Scrum with AI, Business Analyst IIBA AAC, SMPC, SC-ASMCA. Sin PSM/CSM (muchas vacantes aceptan CSM/PSM **o** SAFe → ahí califica).
-- Fuerte: ceremonias Scrum, métricas ágiles/riesgos, stakeholders, BI/Data, compliance, inglés C2, horario Pacífico.
-- Huecos: sin PSM/CSM; sin móvil iOS/Android; no dev técnico profundo.
-- Arquetipo objetivo: Scrum Master de AI/ML en consultora global, SAFe aceptado, industria regulada.
+**Pistas de clasificación:** "benefits vary by LATAM location" + empresa gringa (sin prestaciones de ley) → suele ser USD/regional · "only available for Latin America residents" / "Hiring Remotely in México" / board oficial "LATAM (Remote)" → contractor USD (MX elegible), NO US-only · prestaciones de ley / vales / fondo de ahorro → pesos → carril México.
 
 ## 📊 Contadores
-- 🔎 Vacantes SM/PM rastreadas: **~63** (+ grupo US-only)
-- 🟢🟡🟠 Vivas por aplicar: **9**
-- ✅ Aplicadas (con estado): **5**
-- 🇲🇽 En pausa (pesos): **6**
-- 🔴 Descartadas / cerradas: **28** (+ grupos US-only y Brasil/Colombia country-locked)
-- 💻 Plataformas freelance USD: **17**
+🔎 Rastreadas: ~101 · 🟢🟡🟠 Vivas USD por aplicar: **11** (3 Tier 2 + 8 Tier 3; Tier 1 vacío) · 🇲🇽 México (pesos): 17 · ✅ Aplicadas: 14 (1 rechazada) · 🔴 Descartadas: ~41 · 💻 Freelance/marketplace USD: 18 · 🟢 Braintrust: Approved Talent (listo para cobrar)
+
+---
+
+## 🟢 TIER 1 — USD confirmado
+**⚠️ Sin Tier 1 activo.** American Innovations (único USD confirmado) fue rechazada el 30-jul. La corrida diaria sigue cazando un nuevo Tier 1. Mejor tiro vivo: **Venon Solutions** (Tier 2, USD confirmado; solo le falta validar la cert).
+
+## 🟡 TIER 2 — USD-probable / contractor
+
+| Agregado | Empresa | Rol | USD | Link | Nota |
+|---|---|---|---|---|---|
+| 06 Oct 26 | **Venon Solutions** 🆕 | Scrum Master (Independent Contractor, LATAM, full-time EST) | ✅ **USD confirmado** | [Jobgether](https://dynamic.jobgether.com/offer/680ca7ff7522fcc6fd0a60a6-836---scrum-master) | JD dice EXPLÍCITO "only available for Latin America residents" (México cuenta). 4+ años SM ✅, inglés B2+ ✅, dominio enterprise-class software (sin lock duro). Único hueco: pide "Scrum Master Certification" genérica → confirmar que SAFe SSM cuenta + elegibilidad MX. Horario EST compatible desde Pacífico. **De los mejores tiros del mes.** |
+| 04 Oct 26 | **Nimble Gravity** | Project Manager / Scrum Master — AI Delivery (LATAM Remote + US Remote) | ⚠️ USD-probable | [Greenhouse](https://job-boards.greenhouse.io/nimblegravity/jobs/4563642005) | Consultora AI/Data analytics = **arquetipo puro**. Board oficial dice "LATAM (Remote), US (Remote)". 6+ años ✅, certs PMP/CSM/PSM/SAFe "preferred not required" ✅. Moneda no declarada (sin prestaciones = USD-probable) → confirmar al aplicar. |
+| 28 Ago 26 | **Tech Holding** | PM / Scrum Master — MX (Contract), remoto México | ⚠️ USD-probable | [Greenhouse](https://job-boards.greenhouse.io/techholding/jobs/4712958005) | "Hiring Remotely in México", contract. 4–5 años Certified SM (SAFe ✅), Jira ✅, 9–6 ET. Hueco: moneda no declarada (sin prestaciones = contractor USD-probable). Aplica pronto (histórico flaky). |
+
+## 🟠 TIER 3 — Con reservas
+
+| Agregado | Empresa | Rol | USD | Link | Reserva |
+|---|---|---|---|---|---|
+| 03 Oct 26 | **Cobalto Talent** | Project Management Specialist — Agile Delivery (México remoto) | ⚠️ Por confirmar | [remotefront](https://www.remotefront.com/remote-jobs/cobalto-talent-project-management-specialist-agile-delivery-hodef) | Agencia MX/Norteamérica que coloca con clientes US. 3+ años ✅, certs preferidas no mandatorias ✅. Moneda no declarada + PM/agile no SM puro → confirmar al aplicar. |
+| 24 Sep 26 | **Scalepex** | Sr. Tech Project Manager — Remote ONLY MEXICO (contract) | ⚠️ Por confirmar | [freehire](https://freehire.me/jobs/sr-tech-project-manager-remote-only-mexico-scalepex-6dhsuujr) | Contractor remoto solo-México. 4+ años PM ✅, certs nice-to-have ✅, sin dominio duro. Contractor sin prestaciones (apunta USD) pero cotizan MXN/mes → confirmar moneda. |
+| 13 Ago 26 | **Emma / Torre.ai** | Scrum Master II — Digital ePLM (Remote from Mexico, 5 meses) | ⚠️ Por confirmar | [LinkedIn](https://www.linkedin.com/jobs/view/4416304991) | "Remote from Mexico" vía Torre. Reservas: moneda no declarada + dominio ePLM (hueco medio) + contrato corto. |
+| 10 Ago 26 | **Bluelight Consulting** | Project Manager (Remote LATAM) | ⚠️ Por confirmar | [Lever](https://jobs.lever.co/bluelightconsulting/3d3f2be2-624a-4e85-b8cb-de175ca14327) | Base Heredia CR → confirmar MX + moneda. PM tradicional. |
+| 03 Ago 26 | **Kruger NearShore** | Project Manager — LATAM | ⚠️ Por confirmar | [Jobgether](https://jobgether.com/offer/6a61528f1b23f4f87b3183ff-project-manager---latam) | LATAM abierto, staffing. PM no SM; moneda sin declarar; confirmar elegibilidad MX. |
+| 27 Jul 26 | **Modus Create** | Technical PM (M365/Copilot) | Probable | [Ver](https://moduscreate.com/careers/7796458003?gh_jid=7796458003) | SAFe + Copilot; tus certs de IA suman. JD sin verificar. |
+| 27 Jul 26 | **INDI Staffing** | Scrum Master (Remote LATAM) | Probable | [Ver](https://www.linkedin.com/jobs/view/scrum-master-remote-work-at-indi-staffing-services-4404598641) | Plataforma de BairesDev; ojo con duplicar pipeline. |
+| 27 Jul 26 | **BairesDev** | Agile Coach / SM + Senior Security SM | Sí | [Ver](https://jobgether.com/offer/687e26e0fd9af3ce407e0e22-scrum-master---remote-work-ref-147908) | USD contractor. La "Security SM" = hueco de dominio Security (AppSec/DevSecOps, requisito duro). |
+
+## 🇲🇽 MÉXICO (pesos) — carril vivo
+
+| Agregado | Empresa | Rol | Pago | Link | Nota |
+|---|---|---|---|---|---|
+| 27 Jul 26 | **KMS Technology** | Delivery Manager | 🇲🇽 Pesos | [Ver](https://jobs.smartrecruiters.com/kmstechnology1/744000139125609-delivery-manager) | ⭐ Mejor paquete confirmado en pesos (Mexican law benefits, vales, fondo ahorro, bono ~10%). |
+| 09 Sep 26 | **Rapido Solutions Group** 🆕 | Scrum Master (vía EOR, México remoto) | 🇲🇽 Pesos confirmado | [Greenhouse](https://job-boards.greenhouse.io/rapidosolutionsgroup/jobs/4669323006) | Fondo ahorro 8%, vales, seguros. 5+ años SM, CSM "preferred not mandatory" ✅. Dominio logística (suave). Buen tiro. |
+| 24 Ago 26 | **Grupo Kabat** | Scrum Master (SAFe mandatorio) | 🇲🇽 Pesos ($45–50k MXN/mes) | (Hireline/Indeed) | SAFe mandatorio = encaje directo ✅. ⚠️ Verificar remoto (aparece CDMX híbrido). |
+| 24 Ago 26 | **SuperApp** | Gerente Scrum Master | 🇲🇽 Pesos ($67–72k MXN/mes) | (Indeed) | Pago pesos más alto de la tanda. ⚠️ Verificar remoto + entidad. |
+| 28 Ago 26 | **Team Venti** | PM Software / Scrum Master (desde casa) | 🇲🇽 Pesos-prob. | (Indeed/Glassdoor) | Consultora MX, "trabajo desde casa". Confirmar moneda + remoto full-time. |
+| 28 Ago 26 | **Detecno** | Project Manager (remoto) | 🇲🇽 Pesos (seguro vida + vales) | (Indeed) | Empresa MX, desde casa, beneficios = pesos. PM no SM. |
+| 11 Ago 26 | **Doctoralia México** | Project Manager | 🇲🇽 Pesos-prob. | (Indeed) | Plataforma salud, entidad MX. |
+| 10 Ago 26 | **FPT Latin America** | Scrum Master | 🇲🇽 Pesos-prob. | [LinkedIn](https://mx.linkedin.com/jobs/view/scrum-master-at-fpt-latin-america-4301585594) | Entidad MX. Si fuera USD, sube a Tier. |
+| 09 Ago 26 | **ARKON DATA** | Project Manager MD | 🇲🇽 Pesos ($111k MXN/mes) | (Indeed) | Empresa mexicana data. |
+| 07 Ago 26 | **Bluetab (IBM)** | Scrum Master | 🇲🇽 Pesos-prob. | (Indeed) | Entidad IBM México. |
+| 29 Jul 26 | **mobiik** | Scrum Master Gobernanza | 🇲🇽 Pesos | [Ver](https://www.remoterocketship.com/country/latin-america/jobs/scrum-master/) | Empresa mexicana (versión "México remoto"; su variante CDMX es onsite). |
+| ant. | **Genesys / CITI** | SM / Agile Coach / SM IA | 🇲🇽 Confirmar | (LinkedIn) | México remoto. CITI = rol IA/ML + DevOps. |
+
+_Leads a monitorear (no cuentan como alta hasta reposteo vivo): Wabtec SM Monterrey remoto (expirado), Home Depot GTC MX SM (expirado), VALCE Talent (sin verificar), Sofka/Xideral/Derevo (stale/cerrado)._
+
+---
+
+## ✅ APLICADAS — con estado
+
+| Empresa | Rol | Moneda | Estado |
+|---|---|---|---|
+| **EPAM Systems** | Scrum Master (SAFe Coach, home office MX) | Pesos-prob. | 🟡 **UNDER REVIEW** (confirmado 14-ago) |
+| **Deloitte** | Scrum Master | Por confirmar | 🟡 En proceso ("viewed") |
+| **Devblock** (Braintrust) | Project Manager (Remote LATAM) | USD $45–50/hr | 🟡 Aplicada — sin respuesta |
+| **Amaya Cloud** | Fractional Scrum Master | USD (part-time) | 🟡 Aplicada — sin respuesta |
+| **Interfell** | Scrum Master (Remote) | Por confirmar | 🟡 Aplicada — sin respuesta |
+| **Plexus Tech** | Scrum Master / Agile Coach | Pesos-prob. | 🟡 Aplicada |
+| **Luxoft** | Scrum Master (México) | Pesos-prob. | 🟡 Aplicada |
+| **U-Hi** | Scrum Master (México remoto) | Pesos ($80–85k MXN/mes) | 🟡 Aplicada |
+| **GeorgiaTEK Systems** | Scrum Master | US-only prob. (W2) | 🟡 Aplicada — baja prioridad |
+| **OptimizeGEO** (Braintrust) | Strategic Account Manager | USD | 🟡 Aplicada — rol de ventas, fuera de arquetipo |
+| **UST** | Scrum Master I — MX | Pesos | ⏳ Perfil registrado |
+| **BairesDev** | Scrum Master | USD | ⏳ Correo enviado |
+| **HCLTech** | Scrum Master | Pesos-prob. | ⏳ Aplicado |
+| **American Innovations** | Agile Delivery Leader / SM | USD | 🔴 RECHAZADA (30-jul) |
+
+---
+
+## 💻 FREELANCE / MARKETPLACE — USD
+**Carril USD más listo para cobrar: Braintrust** (Approved Talent + banco configurado). Empieza también por: **Outlier** ([registro](https://app.outlier.ai/)) · **Upwork** ([registro](https://www.upwork.com/signup/)) · **Codementor** ([registro](https://www.codementor.io/m/signup)) · **Revelo** ([registro](https://app.careers.revelo.com/)) · **Index.dev** ([registro](https://workspace.index.dev/register)) · **South / HireInSouth** 🆕 ([sitio](https://www.hireinsouth.com/)) — agencia LATAM→US que coloca Scrum Masters en USD ($2–4.5k/mes), acepta CSM/PSM/equivalente · Mercor, Contra, Lemon.io, Toptal, Turing. (Ninguna cobra por registrarte — si piden depósito, es estafa.)
+
+---
+
+## 🔴 DESCARTADAS (resumen, ~41)
+- **US-only** (autorización US / clearance / "United States Remote"): GovCIO, Ad Hoc, Nuvitek, Haystack, UST-AI, CVS Health, Aspire Systems, PrudentRx, Optum, First Citizens, Global Payments, Wipro, NTT Data, Insight Global (INTL Mexico = staffing US), Novartis, DX Foundation (Salesforce), apexsystems, virtualvocations…
+- **País-locked** (Brasil/Colombia/Argentina/CR con residencia/idioma): Dev.Pro, Minsait, GFT, Stefanini, Jalasoft, Tekton (Colombia), Rimutee/Software Mind/3Pillar (CR/colones), CrossCountry (Sudáfrica), TalyCap (Bogotá híbrido), hophr (header Sudamérica)…
+- **Europa-locked:** DXC "With Dutch", Lithe Transformation.
+- **Cerradas / stale:** American Innovations (rechazada), Blend360 (cancelado), Blue Coding, Devsu, Nearsure, Tech Holding (rol viejo), Agentic Dream, Infinite Lambda, FullStack Labs, Intermex, Atos (filled), Capgemini (filled), Andersen Lab, In All Media (06-oct), Pager, Pluxee…
+- **Presencial / junior / location-lock:** rocket code, GSB Solutions, Goods & Services (Mexico-Onsite), mobiik CDMX onsite, It Seekers CDMX, Bayforce Monterrey onsite, ALTEN (mid), Vacantes Digitales (junior), cazvid "Española New Mexico" (= EE.UU., no MX).
 
 ## 🚩 Filtros rápidos
-- **US-only (tache):** "U.S. Citizen", clearance, "Form I-9", "United States (Remote)"/"Remote-US", Virginia/Maryland/DC, agencia federal → descartar.
-- **Moneda local (pesos/colones):** "Mexican law benefits"/prestaciones de ley, vales de despensa, fondo de ahorro, aguinaldo, "Asociación Solidarista" (CR) → EN PAUSA.
-- **País-locked:** SM listado Brasil/Colombia/Chile – Remote con idioma local o residencia país → local currency, no MX → descartar. "South America"/"Buenos Aires" = Argentina, no MX.
-- **Agregador stale:** "posted 3 years ago" o links 410 / Greenhouse API 404 = cerrado aunque el board cargue. No contar.
+- **US-only** ("U.S. Citizen", "Clearance", "Form I-9", "United States (Remote)", "Remote-US", "New Mexico" = estado EE.UU.) → descartar.
+- **Moneda local** (prestaciones de ley, vales de despensa, fondo de ahorro, aguinaldo) → pesos → carril México (vivo, no descarte).
+- **Contractor USD real** ("only available for Latin America residents", "Hiring Remotely in México", board oficial "LATAM Remote", sin prestaciones de ley) → Tier por encaje, NO US-only.
+- **País-locked** (Brasil/Colombia/CR con residencia/idioma) → descartar.
+- **Link muerto** (404/410, "no longer accepting", 30+ días) → no contar.
 
----
-
-## 🎯 SM / AGILE — VIVAS POR APLICAR
-
-### 🟢 TIER 1 — USD confirmado
-⚠️ **Sin Tier 1 activo (08-ago).** El único USD confirmado fue rechazado (30-jul) y el mejor Tier 2 vivo (Tech Holding) cerró el 05-ago. Pipeline vivo prioriza Blend360 (Tier 2).
-
-### 🟡 TIER 2 — Buen tiro con 1 hueco suave (contractor / USD-probable)
-
-| Empresa | Rol | USD | Nota |
-|---|---|---|---|
-| **Blend360** ⭐🔝 | Senior Project Manager (AI-Data) | Probable (regional/USD) | Confirmado vivo. Guadalajara, MX; "benefits vary by LATAM location" + empresa gringa → leans USD/regional. Encaje fuerte AI/Data + Copilot/Cursor. Confirmar moneda al aplicar. [Aplicar](https://jobs.smartrecruiters.com/blend360/744000138952339-senior-project-manager) |
-| **Blue Coding** | Senior Technical PM | Sí (contractor) | Remoto LATAM, USD contractor. Hueco: nivel técnico. [Board](https://jobs.lever.co/bluecoding) |
-| **Devsu** | Senior Technical PM | Sí (contractor) | México listado, contractor USD. Confirmar residencia/dominio al aplicar. [Aplicar](https://apply.workable.com/devsu/j/9BA97F5A36/) |
-| **Amaya Cloud** | Fractional Scrum Master | Sí | Worldwide, horario Pacífico = ventaja. Huecos: part-time (6–10 h/sem) + pide PSM/CSM. Ingreso complementario. [Aplicar](https://wellfound.com/jobs/4266716-fractional-scrum-master) |
-
-### 🟠 TIER 3 — Vale intentar, con reservas
-
-| Empresa | Rol | USD | Reserva |
-|---|---|---|---|
-| **Devblock** (vía Braintrust) | Project Manager (Remote LATAM) | Sí — $45–50/hr | Mejor rate USD vía Braintrust. Reservas: "South America" (confirmar MX) + PM tradicional. |
-| **Kruger NearShore LLC** | Project Manager — LATAM | Por confirmar | Remoto LATAM abierto, staffing/contractor. Pide 7+ años + PMP/SM. Reservas: PM tradicional; moneda no declarada. [Jobgether](https://jobgether.com/offer/6a61528f1b23f4f87b3183ff-project-manager---latam) |
-| **Modus Create** | Technical PM (M365/Copilot) | Probable | SAFe + M365/Copilot. JD sin verificar. [Aplicar](https://moduscreate.com/careers/7796458003?gh_jid=7796458003) |
-| **INDI Staffing** | Scrum Master (Remote LATAM) | Probable | Plataforma de BairesDev. Ojo con duplicar pipeline. |
-| **BairesDev** | Agile Coach / Scrum Master | Sí | Reqs vivas. Variante "Senior Security SM" (REF#300544) = hueco suave Security. [Scrum Master](https://jobgether.com/offer/687e26e0fd9af3ce407e0e22-scrum-master---remote-work-ref-147908) |
-
----
-
-## 💻 POR HORA / FREELANCE — USD
-
-**Empieza esta semana (abierto a México): Outlier + Upwork. Suma Contra y Codementor.**
-
-### Plataformas de tareas AI/coding (por hora)
-| Plataforma | Pago | Dificultad | Nota |
-|---|---|---|---|
-| **Outlier** ⭐ | $25–50/hr | Fácil | Proyectos en español. Tickets de coding. |
-| **Mercor** ⭐ | $25–50+/hr | Media | Matching con labs de IA. |
-| **Micro1** | $20–50/hr | Media | Tareas + contratos dev. |
-| **Alignerr** | $14–30+/hr | Fácil–Media | Buen punto de entrada. |
-| **Turing** | $20–50/hr | Media | De tareas a contrato dev. |
-| **Handshake AI** | $20–40/hr | Media | Verificar que acepte México. |
-| **Prolific** | ~$8–12/hr | Fácil | Encuestas. Dinero extra. |
-
-### Marketplaces freelance dev (USD)
-| Plataforma | Pago | Dificultad | Nota |
-|---|---|---|---|
-| **Upwork** ⭐ | Tú fijas | Fácil | El mejor para tickets/bugs. |
-| **Contra** | Hora/fijo, 0% | Fácil | Segundo después de Upwork. |
-| **Codementor** ⭐ | $20–60+/hr | Media | Sesiones/tickets técnicos. |
-| **Revelo** ⭐ | USD | Fácil | Marketplace LATAM→US, paga USD. |
-| **Index.dev** | USD | Fácil–Media | Matching LATAM→roles US en USD. |
-| **Lemon.io** | $30–60+/hr | Media–Alta | Vetted LATAM. |
-| **Arc.dev** | Mercado | Media–Alta | Contratos continuos. |
-| **Braintrust** | Hora/contrato, 0% fee | Media–Alta | También postea SM/PM. |
-| **Toptal** | $60–150+/hr | Alta | Meta mediano plazo. |
-
-⚠️ Ninguna cobra por registrarte. Si te piden pagar → estafa.
-
----
-
-## ✅ APLICADAS — CON ESTADO
-
-| Empresa | Rol | Pago | Fecha | Estado |
-|---|---|---|---|---|
-| American Innovations | Agile Delivery Leader / SM | USD | 28-jul | 🔴 Rechazada (30-jul). Era el único Tier 1 USD confirmado. |
-| Deloitte | (por confirmar) | Por confirmar | 05-ago | 🟡 En proceso — "application sent" + "viewed" (LinkedIn, 05-ago). Confirmar rol/moneda. |
-| BairesDev | Scrum Master | USD | 24-jul | ⏳ Sin respuesta al 08-ago. |
-| HCLTech | Scrum Master | Pesos (prob.) | 24-jul | ⏳ Sin respuesta. |
-| UST | Scrum Master I — MX | Pesos | 24-jul | ⏳ Sin respuesta. |
-
-## 🇲🇽 EN PAUSA — pesos (buen rol, moneda local)
-
-| Empresa | Rol | Nota |
-|---|---|---|
-| **KMS Technology** | Delivery Manager (MX remoto) | JD confirmado = pesos (Mexican law benefits, vales, fondo de ahorro). Excelente encaje. El mejor rol en pesos de la lista. |
-| **Bluetab (IBM)** | Scrum Master (MX remoto) | Entidad IBM México → pesos + prestaciones de ley probable. |
-| **mobiik** | Scrum Master Gobernanza (MX remoto) | Empresa mexicana → pesos. Encaje ok. |
-| Genesys | Scrum Master IT / Agile Coach | México remoto, confirmar moneda. |
-| CITI | Scrum Master IA | Pesos. |
-
-## 🔴 DESCARTADAS / CERRADAS (histórico con motivo)
-
-| Empresa | Rol | Motivo | Fecha |
-|---|---|---|---|
-| Tech Holding | SM / TPM (Contract) LATAM | Cerrada — Greenhouse API 404; board solo deja TPM US-only. Monitorear si reabre LATAM. | 05-ago |
-| Agentic Dream | Delivery Manager (Remote LATAM) | Cerrada. Encaje casi perfecto (arquetipo). Monitorear su board. | 05-ago |
-| Infinite Lambda | Delivery Manager (B2B Contractor) | Cerrada + no MX (Buenos Aires / "South America"). | 04-ago |
-| rocket code | SM + PM (CDMX) | Presencial Polanco + pesos + listado removido. | 31-jul |
-| Braintrust (True Ventures) | Scrum Master ($40–42/hr) | Cerrado ("no longer accepting"). | 30-jul |
-| Grupo Brasil/Colombia country-locked | SM / Agile Coach / DM | Idioma local o residencia país → local currency, no MX. (Dev.Pro, Minsait, GFT, Tekton, Ubiminds, Arionkoder, etc.) | 30-jul |
-| Rimutee / Software Mind | Scrum Master (Costa Rica) | CR-focused → colones + residencia CR. | 29-jul |
-| 3Pillar Global | Senior Scrum Master (Costa Rica) | Contratación local CR ("Asociación Solidarista") = colones. | 28-jul |
-| Grupo US-only (alertas LinkedIn) | Scrum Master "US Remote" / clearance | Autorización US / clearance. Incl. Haystack App ($141–198k), First Citizens Bank, NuAxis (federal), LTM ($136k), UST "SM AI" ($80–120k). | 28-jul |
-| Inadev (vía Talentify) | Scrum Master (US Remote, $120k) | U.S. Citizen + Clearance + Form I-9. | 28-jul |
-| Avum Inc. | Remote Scrum Master | Contratista DoD/federal EE.UU. | 27-jul |
-| LatamCent | Product Delivery Manager | Exige shipping iOS + Android (hueco móvil). | 27-jul |
-| Salesforce | Sr Engagement Delivery Manager | Colombia only + PMP obligatorio. | 27-jul |
-| Devsu | Sr Scrum Master (Fintech) | Residencia Quito + fintech/móvil. | 27-jul |
-| Nearsure / FullStack Labs | PM / SM LATAM | Cerradas. | 27-jul |
-| 10Pearls | Scrum Master | Presencial Costa Rica. | 27-jul |
-| ALTEN México | Junior Scrum Master | Junior (sobrecalificado) + pesos. | 27-jul |
-| Cognizant / Stefanini / Liverpool / GSB Solutions | Scrum Master | Presencial/híbrido MX (mudanza) o pesos. | varias |
-| Papigen / Allshore / Tekton Labs | PM / SM LATAM | Cerradas / Colombia only / links 410. No reprocesar. | 30-jul–05-ago |
-| Braintrust/Nestlé (agregador) | Scrum Master ($54–68/hr) | Agregador stale → cerrado/no verificable. | 01-ago |
-
----
-
-_Tablero acumulativo: nada se borra. Bloqueo duro → Descartadas con motivo/fecha. Moneda local → Pausa. El objetivo es USD; los roles en pesos van a pausa, no se venden como USD._
+_Tablero acumulativo: nada se borra. Contenido ofuscado. La fecha de "Última actualización" refleja la última actualización real._
