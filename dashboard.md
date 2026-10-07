@@ -8,6 +8,7 @@
 
 ## 📝 Registro de cambios (qué se agregó / movió y cuándo)
 
+- **06 Oct 26 (noche)** — ✅ **Aplicadas:** Bluelight Consulting (PM Remote LATAM) y Grupo Kabat (SM SAFe, pesos). ❌ **No aplica (Technical PM):** Cobalto Talent, Scalepex, Kruger NearShore. 🔴 **Ya no disponibles:** Modus Create, BairesDev (Jobgether SM ref-147908), Rapido Solutions Group, Team Venti (expirada). **Tier 3 queda vacío → cero vivas USD.**
 - **06 Oct 26 (tarde)** — ✅ **Venon Solutions → APLICADA** (USD contractor LATAM). 🔴 **Caducadas → Descartadas:** Nimble Gravity, Tech Holding (Tier 2), Emma/Torre.ai "SM II Digital ePLM" e INDI Staffing "SM Remote Work" (Tier 3). Tier 2 queda vacío.
 - **06 Oct 26** — **Alta Tier 2: Venon Solutions** (SM, Independent Contractor, **USD confirmado**, "only available for Latin America residents" → México elegible, full-time EST). Hueco único: pide "Scrum Master Certification" genérica (confirmar que SAFe cuenta). Cierre: **In All Media** (Senior SM LATAM) = cerrada. Plataforma nueva: **South / HireInSouth** (agencia LATAM→US, USD $2–4.5k/mes).
 - **04 Oct 26** — **Alta Tier 2: Nimble Gravity** (PM/SM AI Delivery, board oficial "LATAM (Remote)", USD-probable, arquetipo AI/Data).
@@ -30,7 +31,7 @@ Las vacantes full-time "México remoto" / "Costa Rica remoto" casi siempre son *
 **Pistas de clasificación:** "benefits vary by LATAM location" + empresa gringa (sin prestaciones de ley) → suele ser USD/regional · "only available for Latin America residents" / "Hiring Remotely in México" / board oficial "LATAM (Remote)" → contractor USD (MX elegible), NO US-only · prestaciones de ley / vales / fondo de ahorro → pesos → carril México.
 
 ## 📊 Contadores
-🔎 Rastreadas: ~101 · 🟢🟡🟠 Vivas USD por aplicar: **6** (Tier 1 y Tier 2 vacíos; 6 Tier 3) · 🇲🇽 México (pesos): 17 · ✅ Aplicadas: 15 (1 rechazada) · 🔴 Descartadas: ~45 · 💻 Freelance/marketplace USD: 18 · 🟢 Braintrust: Approved Talent (listo para cobrar)
+🔎 Rastreadas: ~101 · 🟢🟡🟠 Vivas USD por aplicar: **0** (Tier 1, 2 y 3 vacíos) · 🇲🇽 México (pesos): 14 · ✅ Aplicadas: 17 (1 rechazada) · 🔴 Descartadas: ~52 · 💻 Freelance/marketplace USD: 18 · 🟢 Braintrust: Approved Talent (listo para cobrar)
 
 ---
 
@@ -43,24 +44,14 @@ Las vacantes full-time "México remoto" / "Costa Rica remoto" casi siempre son *
 
 ## 🟠 TIER 3 — Con reservas
 
-| Agregado | Empresa | Rol | USD | Link | Reserva |
-|---|---|---|---|---|---|
-| 03 Oct 26 | **Cobalto Talent** | Project Management Specialist — Agile Delivery (México remoto) | ⚠️ Por confirmar | [remotefront](https://www.remotefront.com/remote-jobs/cobalto-talent-project-management-specialist-agile-delivery-hodef) | Agencia MX/Norteamérica que coloca con clientes US. 3+ años ✅, certs preferidas no mandatorias ✅. Moneda no declarada + PM/agile no SM puro → confirmar al aplicar. |
-| 24 Sep 26 | **Scalepex** | Sr. Tech Project Manager — Remote ONLY MEXICO (contract) | ⚠️ Por confirmar | [freehire](https://freehire.me/jobs/sr-tech-project-manager-remote-only-mexico-scalepex-6dhsuujr) | Contractor remoto solo-México. 4+ años PM ✅, certs nice-to-have ✅, sin dominio duro. Contractor sin prestaciones (apunta USD) pero cotizan MXN/mes → confirmar moneda. |
-| 10 Ago 26 | **Bluelight Consulting** | Project Manager (Remote LATAM) | ⚠️ Por confirmar | [Lever](https://jobs.lever.co/bluelightconsulting/3d3f2be2-624a-4e85-b8cb-de175ca14327) | Base Heredia CR → confirmar MX + moneda. PM tradicional. |
-| 03 Ago 26 | **Kruger NearShore** | Project Manager — LATAM | ⚠️ Por confirmar | [Jobgether](https://jobgether.com/offer/6a61528f1b23f4f87b3183ff-project-manager---latam) | LATAM abierto, staffing. PM no SM; moneda sin declarar; confirmar elegibilidad MX. |
-| 27 Jul 26 | **Modus Create** | Technical PM (M365/Copilot) | Probable | [Ver](https://moduscreate.com/careers/7796458003?gh_jid=7796458003) | SAFe + Copilot; tus certs de IA suman. JD sin verificar. |
-| 27 Jul 26 | **BairesDev** | Agile Coach / SM + Senior Security SM | Sí | [Ver](https://jobgether.com/offer/687e26e0fd9af3ce407e0e22-scrum-master---remote-work-ref-147908) | USD contractor. La "Security SM" = hueco de dominio Security (AppSec/DevSecOps, requisito duro). |
+**⚠️ Tier 3 VACÍO (06 Oct 26, noche).** Bluelight → Aplicada. Cobalto Talent, Scalepex y Kruger → no aplica (Technical PM, decisión de Jacobo). Modus Create y BairesDev (Jobgether SM) → ya no disponibles. **Cero vivas USD: la corrida diaria debe reconstruir el pipeline USD.**
 
 ## 🇲🇽 MÉXICO (pesos) — carril vivo
 
 | Agregado | Empresa | Rol | Pago | Link | Nota |
 |---|---|---|---|---|---|
 | 27 Jul 26 | **KMS Technology** | Delivery Manager | 🇲🇽 Pesos | [Ver](https://jobs.smartrecruiters.com/kmstechnology1/744000139125609-delivery-manager) | ⭐ Mejor paquete confirmado en pesos (Mexican law benefits, vales, fondo ahorro, bono ~10%). |
-| 09 Sep 26 | **Rapido Solutions Group** 🆕 | Scrum Master (vía EOR, México remoto) | 🇲🇽 Pesos confirmado | [Greenhouse](https://job-boards.greenhouse.io/rapidosolutionsgroup/jobs/4669323006) | Fondo ahorro 8%, vales, seguros. 5+ años SM, CSM "preferred not mandatory" ✅. Dominio logística (suave). Buen tiro. |
-| 24 Ago 26 | **Grupo Kabat** | Scrum Master (SAFe mandatorio) | 🇲🇽 Pesos ($45–50k MXN/mes) | (Hireline/Indeed) | SAFe mandatorio = encaje directo ✅. ⚠️ Verificar remoto (aparece CDMX híbrido). |
-| 24 Ago 26 | **SuperApp** | Gerente Scrum Master | 🇲🇽 Pesos ($67–72k MXN/mes) | (Indeed) | Pago pesos más alto de la tanda. ⚠️ Verificar remoto + entidad. |
-| 28 Ago 26 | **Team Venti** | PM Software / Scrum Master (desde casa) | 🇲🇽 Pesos-prob. | (Indeed/Glassdoor) | Consultora MX, "trabajo desde casa". Confirmar moneda + remoto full-time. |
+| 24 Ago 26 | **SuperApp** | Gerente Scrum Master | 🇲🇽 Pesos ($67–72k MXN/mes) | [Indeed](https://mx.indeed.com/cmp/Superapp/jobs?jk=fbc05f5d8f3e4613) | Pago pesos más alto. ⚠️ Ubicación **Coyoacán, CDMX**, sin marca remoto, posted 30+ días → presencial/stale probable. Verificar antes de aplicar. |
 | 28 Ago 26 | **Detecno** | Project Manager (remoto) | 🇲🇽 Pesos (seguro vida + vales) | (Indeed) | Empresa MX, desde casa, beneficios = pesos. PM no SM. |
 | 11 Ago 26 | **Doctoralia México** | Project Manager | 🇲🇽 Pesos-prob. | (Indeed) | Plataforma salud, entidad MX. |
 | 10 Ago 26 | **FPT Latin America** | Scrum Master | 🇲🇽 Pesos-prob. | [LinkedIn](https://mx.linkedin.com/jobs/view/scrum-master-at-fpt-latin-america-4301585594) | Entidad MX. Si fuera USD, sube a Tier. |
@@ -77,6 +68,8 @@ _Leads a monitorear (no cuentan como alta hasta reposteo vivo): Wabtec SM Monter
 
 | Empresa | Rol | Moneda | Estado |
 |---|---|---|---|
+| **Bluelight Consulting** 🆕 | Project Manager (Remote LATAM, base Heredia CR) | Por confirmar | 🟡 **Aplicada (06-oct, Lever "Application submitted")** — confirmar moneda + elegibilidad MX si avanza |
+| **Grupo Kabat** 🆕 | Scrum Master (SAFe mandatorio) | Pesos ($45–50k MXN/mes) | 🟡 **Aplicada (06-oct)** — confirmar si es remoto o CDMX híbrido |
 | **Venon Solutions** 🆕 | Scrum Master (Independent Contractor, LATAM) | ✅ USD | 🟡 **Aplicada (06-oct)** — confirmar que SAFe SSM cuenta como cert |
 | **EPAM Systems** | Scrum Master (SAFe Coach, home office MX) | Pesos-prob. | 🟡 **UNDER REVIEW** (confirmado 14-ago) |
 | **Deloitte** | Scrum Master | Por confirmar | 🟡 En proceso ("viewed") |
@@ -100,11 +93,12 @@ _Leads a monitorear (no cuentan como alta hasta reposteo vivo): Wabtec SM Monter
 
 ---
 
-## 🔴 DESCARTADAS (resumen, ~45)
+## 🔴 DESCARTADAS (resumen, ~52)
 - **US-only** (autorización US / clearance / "United States Remote"): GovCIO, Ad Hoc, Nuvitek, Haystack, UST-AI, CVS Health, Aspire Systems, PrudentRx, Optum, First Citizens, Global Payments, Wipro, NTT Data, Insight Global (INTL Mexico = staffing US), Novartis, DX Foundation (Salesforce), apexsystems, virtualvocations…
 - **País-locked** (Brasil/Colombia/Argentina/CR con residencia/idioma): Dev.Pro, Minsait, GFT, Stefanini, Jalasoft, Tekton (Colombia), Rimutee/Software Mind/3Pillar (CR/colones), CrossCountry (Sudáfrica), TalyCap (Bogotá híbrido), hophr (header Sudamérica)…
+- **No aplica por decisión de Jacobo (Technical PM, 06-oct):** Cobalto Talent, Scalepex, Kruger NearShore.
 - **Europa-locked:** DXC "With Dutch", Lithe Transformation.
-- **Cerradas / stale:** American Innovations (rechazada), Blend360 (cancelado), Blue Coding, Devsu, Nearsure, Tech Holding (rol viejo), Agentic Dream, Infinite Lambda, FullStack Labs, Intermex, Atos (filled), Capgemini (filled), Andersen Lab, In All Media (06-oct), **Nimble Gravity, Tech Holding MX Contract, Emma/Torre.ai SM II ePLM, INDI Staffing SM (caducadas 06-oct)**, Pager, Pluxee…
+- **Cerradas / stale:** American Innovations (rechazada), Blend360 (cancelado), Blue Coding, Devsu, Nearsure, Tech Holding (rol viejo), Agentic Dream, Infinite Lambda, FullStack Labs, Intermex, Atos (filled), Capgemini (filled), Andersen Lab, In All Media (06-oct), **Nimble Gravity, Tech Holding MX Contract, Emma/Torre.ai SM II ePLM, INDI Staffing SM (caducadas 06-oct)**, **Modus Create, BairesDev Jobgether SM, Rapido Solutions Group, Team Venti (no disponibles 06-oct)**, Pager, Pluxee…
 - **Presencial / junior / location-lock:** rocket code, GSB Solutions, Goods & Services (Mexico-Onsite), mobiik CDMX onsite, It Seekers CDMX, Bayforce Monterrey onsite, ALTEN (mid), Vacantes Digitales (junior), cazvid "Española New Mexico" (= EE.UU., no MX).
 
 ## 🚩 Filtros rápidos
